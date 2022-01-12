@@ -30,13 +30,8 @@ jobs:
         with:
           command: "update-template"
         env:
-<<<<<<< HEAD
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: ♻️ Update response time
-=======
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-      - name: Update response time
->>>>>>> 999b3e0 (	modified:   .github/workflows/graphs.yml)
+      - name: ♻️ Update response time
         uses: upptime/uptime-monitor@v1.26.4
         with:
           command: "response-time"
