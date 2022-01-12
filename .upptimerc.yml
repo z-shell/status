@@ -1,5 +1,6 @@
 owner: z-shell
 repo: uptime-status
+user-agent: z-shell
 sites:
   - name: ZI Wiki Page
     url: https://z-shell.pages.dev
@@ -8,10 +9,10 @@ sites:
   - name: Git.io Redirect
     url: https://git.io/get-zi
   - name: Github
-    url: https://github.com/z-shell/zi
+    url: ssh://github.com/z-shell/zi.git
   - name: GitLab
-    url: https://gitlab.com/ss-o/zi
-  - name: Oh My Zsh Repository (RAW)
+    url: https://gitlab.com/ss-o/zi.git
+  - name: Oh-My-Zsh (RAW)
     url: https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/README.md
   - name: Prezto Repository (RAW)
     url: https://raw.githubusercontent.com/sorin-ionescu/prezto/master/README.md
@@ -41,5 +42,4 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Contact
       href: https://github.com/$OWNER
-  user-agent: z-shell
 # See https://upptime.js.org/docs/configuration
