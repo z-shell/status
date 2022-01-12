@@ -3,6 +3,8 @@ repo: uptime-status
 sites:
   - name: ZI Wiki Page
     url: https://z-shell.pages.dev
+  - name: Github
+    url: https://github.com/z-shell
   - name: Github API
     url: https://api.github.com/orgs/z-shell/repos
   - name: Github RAW Content
