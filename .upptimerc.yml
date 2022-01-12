@@ -1,0 +1,21 @@
+owner: ss-o
+repo: upptime
+sites:
+  - name: Digital Ghost Blog
+    url: go.digitalclouds.dev
+
+status-website:
+  theme: dark
+  cname: up.w-ss.io
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Digital Clouds
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: Uptime status page.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+#     - title: Contact
+#      href: https://github.com/$OWNER/$REP
+# See https://upptime.js.org/docs/configuration
