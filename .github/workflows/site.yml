@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
-    name: 🚀Build and deploy site
+    name: 🚀 Build and deploy site
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       - uses: peaceiris/actions-gh-pages@v3.8.0
-        name: 🚀GitHub Pages Deploy
+        name: 🚀 GitHub Pages Deploy
         with:
           github_token: ${{ secrets.GH_PAT }}
           publish_dir: "site/status-page/__sapper__/export/"
