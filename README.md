@@ -7,6 +7,7 @@ This repository contains the open-source uptime monitor and status page for [Z-S
 [![Graphs CI](https://github.com/ss-o/upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/ss-o/upptime/actions?query=workflow%3A%22Graphs+CI%22)
 [![Static Site CI](https://github.com/ss-o/upptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/ss-o/upptime/actions?query=workflow%3A%22Static+Site+CI%22)
 [![Summary CI](https://github.com/ss-o/upptime/workflows/Summary%20CI/badge.svg)](https://github.com/ss-o/upptime/actions?query=workflow%3A%22Summary+CI%22)
+
 With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/ss-o/upptime/issues) as incident reports, [Actions](https://github.com/ss-o/upptime/actions) as uptime monitors, and [Pages](https://up.w-ss.io) for the status page.
 
 <!--start: status pages-->
