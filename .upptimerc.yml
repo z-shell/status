@@ -8,7 +8,7 @@ sites:
     url: https://z-shell.pages.dev/install
   - name: Git.io Redirect
     url: https://git.io/get-zi
-  - name: Github
+  - name: Github (SSH)
     check: "tcp-ping"
     url: github.com
     port: 22
@@ -20,10 +20,6 @@ sites:
     port: 22
   - name: GitLab (RAW)
     url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
-  - name: Oh-My-Zsh (RAW)
-    url: https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/README.md
-  - name: Prezto (RAW)
-    url: https://raw.githubusercontent.com/sorin-ionescu/prezto/master/README.md
   - name: Cloudlfare DNS
     check: "tcp-ping"
     url: 1.1.1.1
