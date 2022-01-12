@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
-    name: 🚀Deploy updates
+    name: 🚀 Deploy updates
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
