@@ -25,7 +25,7 @@ status-website:
   baseUrl: /uptime-status
   logoUrl: https://github.com/z-shell.png
   name: Z-Shell ZI Status
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: "Resources status on which ZI functionality is dependent or can be affected."
   introMessage: Uptime status page.
   commitMessages:
     readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
