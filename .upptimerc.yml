@@ -8,9 +8,9 @@ sites:
   - name: Git.io Redirect
     url: https://git.io/get-zi
   - name: Github
-    url: https://github.com/z-shell
-  - name: Github API
-    url: https://api.github.com/orgs/z-shell/repos
+    url: https://github.com/z-shell/zi
+  - name: GitLab
+    url: https://gitlab.com/ss-o/zi
   - name: Oh My Zsh Repository (RAW)
     url: https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/README.md
   - name: Prezto Repository (RAW)
