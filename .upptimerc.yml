@@ -1,0 +1,45 @@
+owner: z-shell
+repo: uptime-status
+sites:
+  - name: ZI Wiki Page
+    url: https://z-shell.pages.dev
+  - name: Cloudlfare Redirect
+    url: https://z-shell.pages.dev/install
+  - name: Git.io Redirect
+    url: https://git.io/get-zi
+  - name: Github
+    url: https://github.com/z-shell
+  - name: Github API
+    url: https://api.github.com/orgs/z-shell/repos
+  - name: Oh My Zsh Repository (RAW)
+    url: https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/README.md
+  - name: Prezto Repository (RAW)
+    url: https://raw.githubusercontent.com/sorin-ionescu/prezto/master/README.md
+  - name: Cloudlfare DNS
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+
+status-website:
+  theme: dark
+  baseUrl: /uptime-status
+  logoUrl: https://github.com/z-shell.png
+  name: Z-Shell ZI Status
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: Uptime status page.
+  commitMessages:
+    readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+    summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+    statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+    graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+    commitAuthorName: "Z-Shell ZI Bot"
+    commitAuthorEmail: "z-shell@digitalclouds.dev"
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+    - title: Contact
+      href: https://github.com/$OWNER
+  user-agent: z-shell
+# See https://upptime.js.org/docs/configuration
