@@ -1,21 +1,32 @@
-owner: ss-o
-repo: upptime
+owner: z-shell
+repo: uptime-status
 sites:
-  - name: Digital Ghost Blog
-    url: go.digitalclouds.dev
+  - name: ZI Wiki Page
+    url: https://z-shell.pages.dev
+  - name: Github API
+    url: https://api.github.com/orgs/z-shell/repos
+  - name: Github RAW Content
+    url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
 
 status-website:
   theme: dark
-  cname: up.w-ss.io
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Digital Clouds
+  baseUrl: /uptime-status
+  logoUrl: https://github.com/z-shell.png
+  name: Z-Shell ZI Status
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: Uptime status page.
+  commitMessages:
+    readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+    summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+    statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+    graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+    commitAuthorName: "Z-Shell ZI Bot"
+    commitAuthorEmail: "z-shell@digitalclouds.dev"
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-#     - title: Contact
-#      href: https://github.com/$OWNER/$REP
+    - title: Contact
+      href: https://github.com/$OWNER/$REP
 # See https://upptime.js.org/docs/configuration
