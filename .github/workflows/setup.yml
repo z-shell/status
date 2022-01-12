@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
-    name: ✨Setup Upptime
+    name: ✨ Setup Upptime
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
@@ -31,7 +31,7 @@ jobs:
           command: "update-template"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Update response time
+      - name: ♻️ Update response time
         uses: upptime/uptime-monitor@v1.26.4
         with:
           command: "response-time"
