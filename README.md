@@ -1,4 +1,11 @@
-# [📈 Live Status](https://z-shell.github.io/uptime-status): <!--live status--> **🟩 All systems operational**
+<h2 align="center">
+  <a href="https://github.com/z-shell/zi">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
+  </a>
+  
+  ❮ ZI ❯ [📈 Live Status](https://z-shell.github.io/uptime-status): <!--live status--> **🟩 All systems operational**
+
+</h2>
 
 This repository contains the open-source uptime monitor and status page for [Z-Sehll ZI](https://github.com/z-shell), powered by [Upptime](https://github.com/upptime/upptime).
 
