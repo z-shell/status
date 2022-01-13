@@ -3,8 +3,10 @@ repo: uptime-status
 sites:
   - name: ZI Wiki Page
     url: https://z-shell.pages.dev
-  - name: Cloudlfare Redirect
-    url: https://z-shell.pages.dev/install
+  - name: Cloudlfare Redirect 1
+    url: https://z-shell.pages.dev/i-hub
+  - name: Cloudlfare Redirect 2
+    url: https://z-shell.pages.dev/i-lab
   - name: Git.io Redirect
     url: https://git.io/get-zi
   - name: Github (SSH)
