@@ -1,9 +1,11 @@
 owner: z-shell
 repo: uptime-status
 sites:
-  - name: ZI Wiki Page
+  - name: ZI Wiki Cloudflare
     url: https://z-shell.pages.dev
-  - name: Cloudlfare Redirect 1
+  - name: ZI Wiki Netlify
+    url: https://zi.w-ss.io
+   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
     url: https://z-shell.pages.dev/i-lab
@@ -25,7 +27,11 @@ sites:
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
-
+  - name: Google DNS
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+    
 status-website:
   theme: dark
   baseUrl: /uptime-status
