@@ -5,7 +5,7 @@ sites:
     url: https://z-shell.pages.dev
   - name: ZI Wiki Netlify
     url: https://zi.w-ss.io
-   - name: Cloudlfare Redirect 1
+  - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
     url: https://z-shell.pages.dev/i-lab
