@@ -1,10 +1,12 @@
 owner: z-shell
 repo: uptime-status
 sites:
-  - name: ZI Wiki Cloudflare
-    url: https://z-shell.pages.dev
-  - name: ZI Wiki Netlify
+  - name: ZI Cloudflare
+    url: https://z.digitalclouds.dev
+  - name: ZI Netlify
     url: https://zi.w-ss.io
+  - name: ZI Internet Computer ('IC')
+    url: https://oiffc-pyaaa-aaaad-qbjlq-cai.ic.fleek.co
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
