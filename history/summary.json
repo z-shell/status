@@ -42,9 +42,9 @@
     "url": "https://ipfsz.digitalclouds.dev",
     "icon": "https://favicons.githubusercontent.com/ipfsz.digitalclouds.dev",
     "slug": "zi-ipfs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -53,16 +53,18 @@
     "timeWeek": 477,
     "timeMonth": 459,
     "timeYear": 459,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-02-19": 0
+    }
   },
   {
     "name": "ZI Internet Computer ('IC')",
     "url": "https://icz.digitalclouds.dev",
     "icon": "https://favicons.githubusercontent.com/icz.digitalclouds.dev",
     "slug": "zi-internet-computer-ic",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -71,7 +73,9 @@
     "timeWeek": 1079,
     "timeMonth": 899,
     "timeYear": 899,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-02-19": 0
+    }
   },
   {
     "name": "Cloudlfare Redirect 1",
