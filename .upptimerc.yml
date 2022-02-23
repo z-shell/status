@@ -3,6 +3,8 @@ repo: uptime-status
 sites:
   - name: ZI Cloudflare
     url: https://z-shell.pages.dev
+  - name: ZI CDN
+    url: https://cdn.digitalclouds.dev
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
