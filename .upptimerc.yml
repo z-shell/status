@@ -1,5 +1,5 @@
 owner: z-shell
-repo: uptime-status
+repo: status
 sites:
   - name: ZI Cloudflare
     url: https://z-shell.pages.dev
