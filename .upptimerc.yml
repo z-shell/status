@@ -4,7 +4,7 @@ sites:
   - name: ZI Cloudflare
     url: https://z-shell.pages.dev
   - name: ZI CDN
-    url: https://cdn.digitalclouds.dev
+    url: https://space.ss-o.workers.dev
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
