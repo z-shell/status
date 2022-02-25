@@ -3,7 +3,7 @@
     <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
   </a>
   
-  ❮ ZI ❯ [📈 Live Status](https://z-shell.github.io/uptime-status): <!--live status--> **🟩 All systems operational**
+  ❮ ZI ❯ [📈 Live Status](https://z-shell.github.io/status): <!--live status--> **🟩 All systems operational**
 
 </h2>
 
