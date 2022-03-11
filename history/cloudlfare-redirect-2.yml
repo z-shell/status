@@ -1,7 +1,7 @@
 url: https://z-shell.pages.dev/i-lab
-status: up
-code: 200
-responseTime: 265
-lastUpdated: 2022-03-10T23:01:57.308Z
+status: down
+code: 500
+responseTime: 118
+lastUpdated: 2022-03-11T04:54:10.132Z
 startTime: Thu Jan 13 2022 13:32:58 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
