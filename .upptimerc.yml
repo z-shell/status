@@ -39,9 +39,9 @@ status-website:
   cname: status.zshell.dev
   #baseUrl: /status
   logoUrl: https://github.com/z-shell.png
-  name: Z-Shell ZI Status
-  introTitle: "The status page of the resources on which ZI functionality is dependent or might be affected."
-  introMessage: Uptime status page.
+  name: ❮ ZI ❯
+  introTitle: "Z-Shell Status"
+  introMessage: " The resources which have an influence on the Z-Shell performance."
   commitMessages:
     readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
     summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
