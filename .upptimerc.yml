@@ -5,6 +5,8 @@ sites:
     url: https://z-shell.pages.dev
   - name: Z-Shell Crowdin
     url: https://crowdin.digitalclouds.dev/z-shell
+  - name: Z-Shell Github
+    url: https://github.zshell.dev
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
