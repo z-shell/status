@@ -35,7 +35,7 @@ sites:
 status-website:
   theme: dark
   cname: github.zshell.dev
-  #baseUrl: /status
+  baseUrl: /status
   logoUrl: https://github.com/z-shell.png
   name: Z-Shell ZI Status
   introTitle: "The status page of the resources on which ZI functionality is dependent or might be affected."
