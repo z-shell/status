@@ -40,18 +40,20 @@
     "url": "https://github.zshell.dev",
     "icon": "https://favicons.githubusercontent.com/github.zshell.dev",
     "slug": "z-shell-github",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 224,
-    "timeDay": 233,
-    "timeWeek": 204,
-    "timeMonth": 224,
-    "timeYear": 224,
-    "dailyMinutesDown": {}
+    "time": 218,
+    "timeDay": 197,
+    "timeWeek": 198,
+    "timeMonth": 218,
+    "timeYear": 218,
+    "dailyMinutesDown": {
+      "2022-04-10": 0
+    }
   },
   {
     "name": "Cloudlfare Redirect 1",
