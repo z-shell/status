@@ -1,7 +1,7 @@
 url: https://crowdin.digitalclouds.dev/z-shell
-status: up
-code: 200
-responseTime: 188
-lastUpdated: 2022-04-13T23:04:17.808Z
+status: down
+code: 502
+responseTime: 342
+lastUpdated: 2022-04-14T04:21:53.366Z
 startTime: Sat Apr 02 2022 17:08:04 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
