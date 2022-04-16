@@ -2,11 +2,11 @@ owner: z-shell
 repo: status
 sites:
   - name: ZW Cloudflare
-    url: z-shell.pages.dev
+    url: https://z-shell.pages.dev
   - name: Z-Shell Crowdin
-    url: crowdin.digitalclouds.dev/z-shell
+    url: http://crowdin.digitalclouds.dev/z-shell
   - name: Z-Shell Github
-    url: github.zshell.dev
+    url: http://github.zshell.dev
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
