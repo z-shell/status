@@ -17,6 +17,12 @@ sites:
     url: https://z-shell.pages.dev/i-tee    
   - name: Git.io Redirect
     url: https://git.io/get-zi
+  - name: Gitee (SSH)
+    check: "tcp-ping"
+    url: gitee.com
+    port: 22
+  - name: Gitee (RAW)
+    url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
   - name: Github (SSH)
     check: "tcp-ping"
     url: github.com
