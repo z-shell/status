@@ -6,7 +6,7 @@ sites:
   - name: Z-Shell Crowdin
     url: https://digitalclouds.crowdin.com/z-shell
   - name: Z-Shell Github
-    url: https://z-shell.github.o
+    url: https://z-shell.github.io
   - name: Cloudlfare Redirect 1
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
