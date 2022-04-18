@@ -3,6 +3,8 @@ repo: status
 sites:
   - name: ZW Cloudflare
     url: https://z-shell.pages.dev
+  - name: ZI Source IPFS    
+    url: https://zi-src.on.fleek.co
   - name: Z-Shell Crowdin
     url: https://digitalclouds.crowdin.com/z-shell
   - name: Z-Shell Github
@@ -11,6 +13,8 @@ sites:
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Redirect 2
     url: https://z-shell.pages.dev/i-lab
+  - name: Cloudlfare Redirect 3
+    url: https://z-shell.pages.dev/i-tee    
   - name: Git.io Redirect
     url: https://git.io/get-zi
   - name: Github (SSH)
