@@ -108,19 +108,19 @@
     "url": "https://z-shell.pages.dev/i-tee",
     "icon": "https://favicons.githubusercontent.com/z-shell.pages.dev",
     "slug": "cloudlfare-redirect-3",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1470,
-    "timeDay": 1481,
-    "timeWeek": 1470,
-    "timeMonth": 1470,
-    "timeYear": 1470,
+    "status": "up",
+    "uptime": "99.73%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
+    "time": 1425,
+    "timeDay": 1356,
+    "timeWeek": 1425,
+    "timeMonth": 1425,
+    "timeYear": 1425,
     "dailyMinutesDown": {
-      "2022-04-22": 0
+      "2022-04-22": 15
     }
   },
   {
