@@ -13,8 +13,6 @@ sites:
     url: https://z-shell.pages.dev/i-lab
   - name: Cloudlfare Redirect 3
     url: https://z-shell.pages.dev/i-tee    
-  - name: Git.io Redirect
-    url: https://git.io/get-zi
   - name: Gitee (SSH)
     check: "tcp-ping"
     url: gitee.com
