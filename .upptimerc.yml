@@ -5,6 +5,8 @@ sites:
     url: https://z-shell.pages.dev
   - name: ZI Source IPFS    
     url: https://zi-src.on.fleek.co
+  - name: ZI CDN
+    url: https://z.digitalclouds.dev/fa/js/all.js    
   - name: Z-Shell Crowdin
     url: https://digitalclouds.crowdin.com/z-shell
   - name: Cloudlfare Redirect 1
