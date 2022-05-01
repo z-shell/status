@@ -1,7 +1,7 @@
-url: https://z.digitalclouds.dev/fa/js/all.js
+url: https://cdn.digitalclouds.dev
 status: down
-code: 404
-responseTime: 274
-lastUpdated: 2022-05-01T12:51:48.568Z
+code: 503
+responseTime: 124
+lastUpdated: 2022-05-01T13:05:48.564Z
 startTime: Fri Apr 29 2022 15:28:56 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
