@@ -1,53 +1,65 @@
 owner: z-shell
 repo: status
+user-agent: ss-o
 sites:
-  - name: ZW Cloudflare (URL)
+  - name: ZI Wiki [URL]
     url: https://z-shell.pages.dev
-  - name: ZI Source IPFS (URL)
+  - name: ZI Source IPFS [URL]
     url: https://zi-src.on.fleek.co
-  - name: ZI CDN (Asset URL)
+  - name: ZI Content Delivery [URL]
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - name: Cloudlfare Pages (Redirect i-hub)
+  - name: Redirect i-hub [STATUS CODE]
     url: https://z-shell.pages.dev/i-hub
-  - name: Cloudlfare Pages (Redirect i-lab)
+    expectedStatusCodes:
+      - 301
+      - 302
+  - name: Redirect i-lab [STATUS CODE]
     url: https://z-shell.pages.dev/i-lab
-  - name: Cloudlfare Pages (Redirect i-tee)
+    expectedStatusCodes:
+      - 301
+      - 302
+  - name: Redirect i-tee [STATUS CODE]
     url: https://z-shell.pages.dev/i-tee
-  - name: Gitee (Ping SSH:22)
+    expectedStatusCodes:
+      - 301
+      - 302
+  - name: Gitee SSH [TCP 22]
     check: "tcp-ping"
     url: gitee.com
     port: 22
-  - name: Gitee (RAW URL)
+  - name: Gitee RAW [URL]
     url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
-  - name: Github (Ping SSH:22)
+  - name: Github SSH [TCP 22]
     check: "tcp-ping"
     url: github.com
     port: 22
-  - name: GitHub (RAW URL)
+  - name: GitHub RAW [URL]
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
-  - name: GitLab (Ping SSH:22)
+  - name: GitLab SSH [TCP 22]
     check: "tcp-ping"
     url: gitlab.com
     port: 22
-  - name: GitLab (RAW URL)
+  - name: GitLab RAW [URL]
     url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
-  - name: Cloudlfare (Ping DNS:TCP:53)
+  - name: Cloudlfare DNS [TCP 53]
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
-  - name: Cloudlfare (Ping DNS:UDP:53)
-    check: "udp-ping"
-    url: 1.1.1.1
-    port: 53
-  - name: Google (Ping DNS:TCP:53)
+  - name: Google DNS [TCP 53]
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
-  - name: Crowdin (URL)
-    url: https://crowdin.digitalclouds.dev
-
+  - name: Crowdin [STATUS CODE]
+    url: https://crowdin.digitalclouds.dev/z-shell
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503
 status-website:
-  theme: dark
+  #theme: dark
+  themeUrl: https://status.zshell.dev/dark.css
   cname: status.zshell.dev
   baseUrl: /
   logoUrl: https://github.com/z-shell.png
@@ -68,4 +80,12 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Contact
       href: https://github.com/$OWNER
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 # See https://upptime.js.org/docs/configuration
