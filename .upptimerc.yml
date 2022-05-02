@@ -7,7 +7,7 @@ sites:
     url: https://zi-src.on.fleek.co
   - name: ZI CDN (Asset URL)
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - `name: Cloudlfare Pages (Redirect i-hub)
+  - name: Cloudlfare Pages (Redirect i-hub)
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Pages (Redirect i-lab)
     url: https://z-shell.pages.dev/i-lab

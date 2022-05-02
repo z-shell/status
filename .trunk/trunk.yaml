@@ -13,13 +13,10 @@ lint:
         [markdownlint, -q, --config, .github/.markdownlint.yaml, "${target}"]
       direct_configs: [.github/.markdownlint.yaml]
   enabled:
-    - actionlint@1.6.12
-    - gitleaks@8.8.4
-    - hadolint@2.10.0
+    - actionlint@1.6.9
+    - gitleaks@8.3.0
     - markdownlint@0.31.1
-    - prettier@2.6.2
-    - shellcheck@0.8.0
-    - shfmt@3.4.0
+    - prettier@2.5.1
   ignore:
     - linters: [ALL]
       paths:
