@@ -7,9 +7,7 @@ sites:
     url: https://zi-src.on.fleek.co
   - name: ZI CDN (Asset URL)
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - name: Z-Shell Crowdin (URL)
-    url: https://crowdin.digitalclouds.dev/z-shell
-  - name: Cloudlfare Pages (Redirect i-hub)
+  - `name: Cloudlfare Pages (Redirect i-hub)
     url: https://z-shell.pages.dev/i-hub
   - name: Cloudlfare Pages (Redirect i-lab)
     url: https://z-shell.pages.dev/i-lab
@@ -45,11 +43,13 @@ sites:
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
+  - name: Crowdin (URL)
+    url: https://crowdin.digitalclouds.dev
 
 status-website:
   theme: dark
   cname: status.zshell.dev
-  #baseUrl: /status
+  baseUrl: /
   logoUrl: https://github.com/z-shell.png
   name: ❮ ZI ❯
   introTitle: "Z-Shell Status"
