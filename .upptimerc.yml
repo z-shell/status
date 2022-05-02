@@ -58,7 +58,7 @@ status-website:
   themeUrl: https://status.zshell.dev/zdark.css
   logoUrl: https://github.com/z-shell.png
   baseUrl: /
-  theme: dark
+  theme: night
   cname: status.zshell.dev
   name: "Z-Shell ❮ ZI ❯"
   introTitle: "Uptime Status"
