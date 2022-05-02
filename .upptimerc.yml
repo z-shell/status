@@ -14,7 +14,7 @@ sites:
   - name: Cloudlfare Pages (Redirect: i-lab)
     url: https://z-shell.pages.dev/i-lab
   - name: Cloudlfare Pages (Redirect: i-tee)
-    url: https://z-shell.pages.dev/i-tee    
+    url: https://z-shell.pages.dev/i-tee
   - name: Gitee (Ping SSH:22)
     check: "tcp-ping"
     url: gitee.com
