@@ -9,11 +9,11 @@ sites:
     url: https://cdn.digitalclouds.dev/fa/js/all.js
   - name: Z-Shell Crowdin (URL)
     url: https://crowdin.digitalclouds.dev/z-shell
-  - name: Cloudlfare Pages (Redirect: i-hub)
+  - name: Cloudlfare Pages (Redirect i-hub)
     url: https://z-shell.pages.dev/i-hub
-  - name: Cloudlfare Pages (Redirect: i-lab)
+  - name: Cloudlfare Pages (Redirect i-lab)
     url: https://z-shell.pages.dev/i-lab
-  - name: Cloudlfare Pages (Redirect: i-tee)
+  - name: Cloudlfare Pages (Redirect i-tee)
     url: https://z-shell.pages.dev/i-tee
   - name: Gitee (Ping SSH:22)
     check: "tcp-ping"
@@ -45,7 +45,7 @@ sites:
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
-    
+
 status-website:
   theme: dark
   cname: status.zshell.dev
