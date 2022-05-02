@@ -8,21 +8,12 @@ sites:
     url: https://zi-src.on.fleek.co
   - name: ZI Content Delivery [URL]
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - name: Redirect i-hub [STATUS CODE]
+  - name: Redirect i-hub [URL]
     url: https://z-shell.pages.dev/i-hub
-    expectedStatusCodes:
-      - 301
-      - 302
-  - name: Redirect i-lab [STATUS CODE]
+  - name: Redirect i-lab [URL]
     url: https://z-shell.pages.dev/i-lab
-    expectedStatusCodes:
-      - 301
-      - 302
-  - name: Redirect i-tee [STATUS CODE]
+  - name: Redirect i-tee [URL]
     url: https://z-shell.pages.dev/i-tee
-    expectedStatusCodes:
-      - 301
-      - 302
   - name: Gitee SSH [TCP 22]
     check: "tcp-ping"
     url: gitee.com
@@ -58,10 +49,10 @@ sites:
       - 302
       - 503
 status-website:
-  #theme: dark
-  themeUrl: https://status.zshell.dev/dark.css
   cname: status.zshell.dev
   baseUrl: /
+  theme: zdark
+  themeUrl: https://status.zshell.dev/zdark.css
   logoUrl: https://github.com/z-shell.png
   name: ❮ ZI ❯
   introTitle: "Z-Shell Status"
