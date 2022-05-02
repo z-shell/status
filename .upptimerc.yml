@@ -79,4 +79,7 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+commitMessages:
+  commitAuthorName: "digital-teams[bot]"
+  commitAuthorEmail: "digital-teams@pm.me"
 # See https://upptime.js.org/docs/configuration
