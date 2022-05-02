@@ -1,43 +1,47 @@
 owner: z-shell
 repo: status
 sites:
-  - name: ZW Cloudflare
+  - name: ZW Cloudflare (URL)
     url: https://z-shell.pages.dev
-  - name: ZI Source IPFS    
+  - name: ZI Source IPFS (URL)
     url: https://zi-src.on.fleek.co
-  - name: ZI CDN
+  - name: ZI CDN (Asset URL)
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - name: Z-Shell Crowdin
-    url: https://digitalclouds.crowdin.com/z-shell
-  - name: Cloudlfare Redirect 1
+  - name: Z-Shell Crowdin (URL)
+    url: https://crowdin.digitalclouds.dev/z-shell
+  - name: Cloudlfare Pages (Redirect: i-hub)
     url: https://z-shell.pages.dev/i-hub
-  - name: Cloudlfare Redirect 2
+  - name: Cloudlfare Pages (Redirect: i-lab)
     url: https://z-shell.pages.dev/i-lab
-  - name: Cloudlfare Redirect 3
+  - name: Cloudlfare Pages (Redirect: i-tee)
     url: https://z-shell.pages.dev/i-tee    
-  - name: Gitee (SSH)
+  - name: Gitee (Ping SSH:22)
     check: "tcp-ping"
     url: gitee.com
     port: 22
-  - name: Gitee (RAW)
+  - name: Gitee (RAW URL)
     url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
-  - name: Github (SSH)
+  - name: Github (Ping SSH:22)
     check: "tcp-ping"
     url: github.com
     port: 22
-  - name: GitHub (RAW)
+  - name: GitHub (RAW URL)
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
-  - name: GitLab (SSH)
+  - name: GitLab (Ping SSH:22)
     check: "tcp-ping"
     url: gitlab.com
     port: 22
-  - name: GitLab (RAW)
+  - name: GitLab (RAW URL)
     url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
-  - name: Cloudlfare DNS
+  - name: Cloudlfare (Ping DNS:TCP:53)
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
-  - name: Google DNS
+  - name: Cloudlfare (Ping DNS:UDP:53)
+    check: "udp-ping"
+    url: 1.1.1.1
+    port: 53
+  - name: Google (Ping DNS:TCP:53)
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
