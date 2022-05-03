@@ -61,8 +61,8 @@ status-website:
   theme: night
   cname: status.zshell.dev
   name: "Z-Shell ❮ ZI ❯"
-  introTitle: "<i class="fa-solid fa-chart-line"></i> Uptime Status"
-  introMessage: "<i class="fa-brands fa-connectdevelop"></i> The resources which have an influence on the Z-Shell performance."
+  introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
+  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The resources which have an influence on the Z-Shell performance."
   commitMessages:
     readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
     summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
