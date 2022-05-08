@@ -94,19 +94,19 @@
     "url": "https://z-shell.pages.dev/i-tee",
     "icon": "https://favicons.githubusercontent.com/z-shell.pages.dev",
     "slug": "redirect-i-tee-url",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1504,
-    "timeDay": 1581,
-    "timeWeek": 1504,
-    "timeMonth": 1504,
-    "timeYear": 1504,
+    "status": "up",
+    "uptime": "99.82%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.82%",
+    "time": 1724,
+    "timeDay": 2749,
+    "timeWeek": 1724,
+    "timeMonth": 1724,
+    "timeYear": 1724,
     "dailyMinutesDown": {
-      "2022-05-08": 0
+      "2022-05-08": 14
     }
   },
   {
