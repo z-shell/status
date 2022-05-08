@@ -94,18 +94,20 @@
     "url": "https://z-shell.pages.dev/i-tee",
     "icon": "https://favicons.githubusercontent.com/z-shell.pages.dev",
     "slug": "redirect-i-tee-url",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 1504,
     "timeDay": 1581,
     "timeWeek": 1504,
     "timeMonth": 1504,
     "timeYear": 1504,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-05-08": 0
+    }
   },
   {
     "name": "Gitee SSH [TCP 22]",
