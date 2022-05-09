@@ -94,19 +94,19 @@
     "url": "https://z-shell.pages.dev/i-tee",
     "icon": "https://favicons.githubusercontent.com/z-shell.pages.dev",
     "slug": "redirect-i-tee-url",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1677,
-    "timeDay": 1167,
-    "timeWeek": 1677,
-    "timeMonth": 1677,
-    "timeYear": 1677,
+    "status": "up",
+    "uptime": "99.60%",
+    "uptimeDay": "97.34%",
+    "uptimeWeek": "99.60%",
+    "uptimeMonth": "99.60%",
+    "uptimeYear": "99.60%",
+    "time": 1650,
+    "timeDay": 1244,
+    "timeWeek": 1650,
+    "timeMonth": 1650,
+    "timeYear": 1650,
     "dailyMinutesDown": {
-      "2022-05-09": 1
+      "2022-05-09": 38
     }
   },
   {
@@ -132,19 +132,19 @@
     "url": "https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh",
     "icon": "https://favicons.githubusercontent.com/gitee.com",
     "slug": "gitee-raw-url",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.62%",
+    "uptimeDay": "97.40%",
+    "uptimeWeek": "99.62%",
+    "uptimeMonth": "99.62%",
+    "uptimeYear": "99.62%",
     "time": 280,
-    "timeDay": 292,
+    "timeDay": 286,
     "timeWeek": 280,
     "timeMonth": 280,
     "timeYear": 280,
     "dailyMinutesDown": {
-      "2022-05-09": 0
+      "2022-05-09": 37
     }
   },
   {
