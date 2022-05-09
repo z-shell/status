@@ -94,18 +94,20 @@
     "url": "https://z-shell.pages.dev/i-tee",
     "icon": "https://favicons.githubusercontent.com/z-shell.pages.dev",
     "slug": "redirect-i-tee-url",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 1677,
-    "timeDay": 2542,
+    "timeDay": 1167,
     "timeWeek": 1677,
     "timeMonth": 1677,
     "timeYear": 1677,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-05-09": 1
+    }
   },
   {
     "name": "Gitee SSH [TCP 22]",
@@ -130,9 +132,9 @@
     "url": "https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh",
     "icon": "https://favicons.githubusercontent.com/gitee.com",
     "slug": "gitee-raw-url",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -141,7 +143,9 @@
     "timeWeek": 280,
     "timeMonth": 280,
     "timeYear": 280,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-05-09": 0
+    }
   },
   {
     "name": "Github SSH [TCP 22]",
