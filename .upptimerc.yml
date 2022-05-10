@@ -8,6 +8,20 @@ sites:
     url: https://zi-src.on.fleek.co
   - name: ZI Content Delivery [URL]
     url: https://cdn.digitalclouds.dev/fa/js/all.js
+  - name: Git.io/get-zi [STATUS CODE]
+    url: https://git.io/get-zi
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: Git.io/zi-loader [STATUS CODE]
+    url: https://git.io/zi-loader
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
   - name: Redirect i-hub [URL]
     url: https://z-shell.pages.dev/i-hub
   - name: Redirect i-lab [URL]
@@ -50,18 +64,18 @@ sites:
       - 503
 status-website:
   scripts:
-    - src: https://cdn.digitalclouds.dev/fa/js/all.min.js
+    - src: https://github.zshell.dev/fa/js/all.min.js
       async: true
   links:
     - rel: stylesheet
-      href: https://cdn.digitalclouds.dev/fa/css/all.min.css
+      href: https://github.zshell.dev/fa/css/all.min.css
   themeUrl: https://status.zshell.dev/themes/night.css
   logoUrl: https://github.com/z-shell.png
   baseUrl: /
   theme: night
   cname: status.zshell.dev
   name: "Z-Shell ❮ ZI ❯"
-  introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
+  introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The resources which have an influence on the Z-Shell performance."
   commitMessages:
     readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
@@ -85,7 +99,4 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
-commitMessages:
-  commitAuthorName: "digital-teams[bot]"
-  commitAuthorEmail: "digital-teams@pm.me"
 # See https://upptime.js.org/docs/configuration
