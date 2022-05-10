@@ -1,9 +1,9 @@
 ---
-name: '⭕ Trunk'
+name: "⭕ Trunk"
 on:
   push:
-    branches: ['main']
-    tags: ['v*.*.*']
+    branches: ["main"]
+    tags: ["v*.*.*"]
   pull_request:
     types: [opened, synchronize]
   schedule:
@@ -12,15 +12,15 @@ on:
 
 jobs:
   check-call:
-    name: '⚡'
+    name: "⚡"
     uses: z-shell/.github/.github/workflows/trunk-call.yml@main
-#    secrets:
-#      trunk_token: ${{ secrets.TRUNK_TOKEN }}
+    #    secrets:
+    #      trunk_token: ${{ secrets.TRUNK_TOKEN }}
     with:
-#      trunk_path: ''
-#      cache: ''
-#      upload-series: ''
-      check-mode: 'all'
+      #      trunk_path: ''
+      #      cache: ''
+      #      upload-series: ''
+      check-mode: "all"
 #      arguments: ''
 #      call_arguments: 'npm i -g pnpm && pnpm i -r'
 #      shell: ''
