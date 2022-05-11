@@ -1,10 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: 'bug :lady_beetle:'
+title: ""
+labels: "bug :lady_beetle:"
 assignees: ss-o
-
 ---
 
 <!-- If you have a question, you should use Discussions instead: https://github.com/upptime/upptime/discussions -->
