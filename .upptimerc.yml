@@ -8,14 +8,14 @@ sites:
     url: https://zi-src.on.fleek.co
   - name: ZI Content Delivery [URL]
     url: https://cdn.digitalclouds.dev/fa/js/all.js
-  - name: Git.io/get-zi [STATUS CODE]
+  - name: Git.io get-zi [STATUS]
     url: https://git.io/get-zi
     expectedStatusCodes:
       - 200
       - 201
       - 301
       - 302
-  - name: Git.io/zi-loader [STATUS CODE]
+  - name: Git.io zi-loader [STATUS]
     url: https://git.io/zi-loader
     expectedStatusCodes:
       - 200
@@ -54,7 +54,7 @@ sites:
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
-  - name: Crowdin [STATUS CODE]
+  - name: Crowdin [STATUS]
     url: https://crowdin.digitalclouds.dev/z-shell
     expectedStatusCodes:
       - 200
