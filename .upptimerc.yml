@@ -1,0 +1,101 @@
+owner: z-shell
+repo: status
+sites:
+  - name: wiki.zshell.dev
+    url: https://z-shell.pages.dev
+  - name: ipfs.zshell.dev
+    url: https://zi-src.on.fleek.co
+  - name: cdn.digitalclouds.dev
+    url: https://cdn.digitalclouds.dev/fa/js/all.js
+  - name: git.io/get-zi
+    url: https://git.io/get-zi
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: git.io/zi-loader
+    url: https://git.io/zi-loader
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: Redirect /i-hub
+    url: https://z-shell.pages.dev/i-hub
+  - name: Redirect /i-lab
+    url: https://z-shell.pages.dev/i-lab
+  - name: Redirect /i-tee
+    url: https://z-shell.pages.dev/i-tee
+  - name: gitee.com:22
+    check: "tcp-ping"
+    url: gitee.com
+    port: 22
+  - name: gitee.com raw
+    url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
+  - name: github.com:22
+    check: "tcp-ping"
+    url: github.com
+    port: 22
+  - name: github.com raw
+    url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
+  - name: gitlab.com:22
+    check: "tcp-ping"
+    url: gitlab.com
+    port: 22
+  - name: gitlab.com raw
+    url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
+  - name: 1.1.1.1:53
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+  - name: 8.8.8.8:53
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+  - name: Crowdin /z-shell
+    url: https://crowdin.digitalclouds.dev/z-shell
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503
+status-website:
+  scripts:
+    - src: https://github.zshell.dev/fa/js/all.min.js
+      async: true
+  links:
+    - rel: stylesheet
+      href: https://github.zshell.dev/fa/css/all.min.css
+  themeUrl: https://status.zshell.dev/themes/night.css
+  logoUrl: https://github.com/z-shell.png
+  baseUrl: /
+  theme: night
+  cname: status.zshell.dev
+  name: "Z-Shell ❮ ZI ❯"
+  introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
+  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The resources which have an influence on the Z-Shell performance."
+  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+    - title: Contact
+      href: https://github.com/$OWNER
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+commitMessages:
+  commitAuthorName: "digital-teams[Bot]"
+  commitAuthorEmail: "digital-teams@pm.me"
+# See https://upptime.js.org/docs/configuration
