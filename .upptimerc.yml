@@ -75,7 +75,7 @@ status-website:
   cname: status.zshell.dev
   name: "Z-Shell ❮ ZI ❯"
   introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
-  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The resources which have an influence on the Z-Shell performance."
+  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Sehll.
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
   summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
   statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
@@ -86,6 +86,8 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
     - title: Contact
+      href: https://github.zshell.dev
+    - title: Z-Shell Organization
       href: https://github.com/$OWNER
 workflowSchedule:
   graphs: "0 0 * * *"
