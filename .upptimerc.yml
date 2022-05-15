@@ -21,29 +21,29 @@ sites:
       - 201
       - 301
       - 302
-  - name: Redirect /i-hub
+  - name: FWD /i-hub
     url: https://z-shell.pages.dev/i-hub
-  - name: Redirect /i-lab
+  - name: FWD /i-lab
     url: https://z-shell.pages.dev/i-lab
-  - name: Redirect /i-tee
+  - name: FWD /i-tee
     url: https://z-shell.pages.dev/i-tee
   - name: gitee.com:22
     check: "tcp-ping"
     url: gitee.com
     port: 22
-  - name: gitee.com raw
+  - name: RAW gitee.com
     url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
   - name: github.com:22
     check: "tcp-ping"
     url: github.com
     port: 22
-  - name: github.com raw
+  - name: RAW github.com
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
   - name: gitlab.com:22
     check: "tcp-ping"
     url: gitlab.com
     port: 22
-  - name: gitlab.com raw
+  - name: RAW gitlab.com
     url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
   - name: 1.1.1.1:53
     check: "tcp-ping"
