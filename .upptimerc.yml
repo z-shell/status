@@ -75,7 +75,7 @@ status-website:
   cname: status.zshell.dev
   name: "Z-Shell ❮ ZI ❯"
   introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
-  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Sehll.
+  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Sehll."
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
   summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
   statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
