@@ -25,14 +25,14 @@ sites:
     url: https://z-shell.pages.dev/i-hub
   - name: FWD /i-lab
     url: https://z-shell.pages.dev/i-lab
-  - name: FWD /i-tee
-    url: https://z-shell.pages.dev/i-tee
-  - name: gitee.com:22
-    check: "tcp-ping"
-    url: gitee.com
-    port: 22
-  - name: RAW gitee.com
-    url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
+#  - name: FWD /i-tee
+#    url: https://z-shell.pages.dev/i-tee
+#  - name: gitee.com:22
+#    check: "tcp-ping"
+#    url: gitee.com
+#    port: 22
+#  - name: RAW gitee.com
+#    url: https://gitee.com/z-shell/zi-src/raw/main/lib/sh/install.sh
   - name: github.com:22
     check: "tcp-ping"
     url: github.com
