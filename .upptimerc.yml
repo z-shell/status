@@ -125,7 +125,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/20 * * *"
+  uptime: "*/15 * * * *"
 # Commits to git history to keep a track of response times, and also commits graphs and README updates.   
 commitMessages:
   commitAuthorName: "digital-teams[Bot]"
