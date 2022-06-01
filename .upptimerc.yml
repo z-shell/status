@@ -3,10 +3,62 @@ repo: status
 sites:
   - name: wiki.zshell.dev
     url: https://z-shell.pages.dev
-    icon: https://github.com/z-shell.png  
   - name: ipfs.zshell.dev
     url: https://zi-src.on.fleek.co
-    icon: https://github.com/z-shell.png    
+  - name: init.zshell.dev
+    url: https://init.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503  
+  - name: get.zshell.dev
+    url: https://get.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503  
+  - name: git.io/get-zi
+    url: https://git.io/get-zi
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: git.io/zi-loader
+    url: https://git.io/zi-loader
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: cdn.digitalclouds.dev
+    url: https://cdn.digitalclouds.dev/fa/js/all.js
+  - name: RAW github.com
+    url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
+  - name: RAW gitlab.com
+    url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
+  - name: 1.1.1.1:53
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+    icon: https://www.cloudflare.com/favicon.ico        
+  - name: 8.8.8.8:53
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+    icon: https://www.google.com/favicon.ico    
+  - name: Crowdin/Z-Shell
+    url: https://crowdin.digitalclouds.dev/z-shell
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503
   #- name: Secret Site
   #  url: $SECRET_SITE
   #- name: API endpoint
@@ -22,68 +74,6 @@ sites:
   #  headers:
   #    - "Content-Type: application/json"
   #  body: '{ "password": "hello" }'
-  - name: init.zshell.dev
-    url: https://init.zshell.dev
-    icon: https://github.com/z-shell.png
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
-      - 503  
-  - name: get.zshell.dev
-    url: https://get.zshell.dev
-    icon: https://github.com/z-shell.png
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
-      - 503  
-  - name: git.io/get-zi
-    url: https://git.io/get-zi
-    icon: https://github.com/z-shell.png
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
-  - name: git.io/zi-loader
-    url: https://git.io/zi-loader
-    icon: https://github.com/z-shell.png
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
-  - name: cdn.digitalclouds.dev
-    url: https://cdn.digitalclouds.dev/fa/js/all.js
-    icon: https://digitalcloud.training/wp-content/uploads/2020/08/cropped-Digital-Cloud-Small-1-32x32.png    
-  - name: RAW github.com
-    url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
-    icon: https://www.github.com/favicon.ico
-  - name: RAW gitlab.com
-    url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
-    icon: https://www.gitlab.com/favicon.ico
-  - name: 1.1.1.1:53
-    check: "tcp-ping"
-    url: 1.1.1.1
-    port: 53
-    icon: https://www.cloudflare.com/favicon.ico        
-  - name: 8.8.8.8:53
-    check: "tcp-ping"
-    url: 8.8.8.8
-    port: 53
-    icon: https://www.google.com/favicon.ico    
-  - name: Crowdin/Z-Shell
-    url: https://crowdin.digitalclouds.dev/z-shell
-    icon: https:/crowdin.digitalclouds.dev/favicon.ico
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
-      - 503
 status-website:
   scripts:
     - src: https://github.zshell.dev/fa/js/all.min.js
