@@ -12,7 +12,7 @@ sites:
       - 201
       - 301
       - 302
-      - 503  
+      - 503
   - name: get.zshell.dev
     url: https://get.zshell.dev
     expectedStatusCodes:
@@ -20,7 +20,7 @@ sites:
       - 201
       - 301
       - 302
-      - 503  
+      - 503
   - name: git.io/get-zi
     url: https://git.io/get-zi
     expectedStatusCodes:
@@ -45,12 +45,12 @@ sites:
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
-    icon: https://www.cloudflare.com/favicon.ico        
+    icon: https://www.cloudflare.com/favicon.ico
   - name: 8.8.8.8:53
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
-    icon: https://www.google.com/favicon.ico    
+    icon: https://www.google.com/favicon.ico
   - name: Crowdin/Z-Shell
     url: https://crowdin.digitalclouds.dev/z-shell
     expectedStatusCodes:
@@ -85,12 +85,12 @@ status-website:
   logoUrl: https://github.com/z-shell.png
   metaTags:
     - name: "robots"
-      content: "noindex"      
+      content: "noindex"
   css: "body { opacity: 0.5 }"
   baseUrl: /
   theme: night
   cname: status.zshell.dev
-  apiBaseUrl: https://api.github.com  
+  apiBaseUrl: https://api.github.com
   name: "Z-Shell ❮ ZI ❯"
   introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Sehll."
@@ -107,7 +107,7 @@ status-website:
       href: https://github.zshell.dev
     - title: Z-Shell Organization
       href: https://github.com/$OWNER
-# Customize the schedule when Uptime workflows run by adding the workflowSchedule key in your configuration file.       
+# Customize the schedule when Uptime workflows run by adding the workflowSchedule key in your configuration file.
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
@@ -116,7 +116,7 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/15 * * * *"
-# Commits to git history to keep a track of response times, and also commits graphs and README updates.   
+# Commits to git history to keep a track of response times, and also commits graphs and README updates.
 commitMessages:
   commitAuthorName: "digital-teams[Bot]"
   commitAuthorEmail: "digital-teams@pm.me"
