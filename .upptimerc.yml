@@ -6,9 +6,21 @@ sites:
   - name: ipfs.zshell.dev
     url: https://zi-src.on.fleek.co
   - name: init.zshell.dev
-    url: https://init.zshell.dev
+    url: https://init.zshell.dev  
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503  
   - name: get.zshell.dev
     url: https://get.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503  
   - name: git.io/get-zi
     url: https://git.io/get-zi
     expectedStatusCodes:
