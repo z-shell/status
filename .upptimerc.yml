@@ -91,8 +91,8 @@ status-website:
   theme: night
   cname: status.zshell.dev
   apiBaseUrl: https://api.github.com
-  name: "Z-Shell ❮ ZI ❯"
-  introTitle: "<i class='fa-solid fa-chart-line'> Uptime Status </i>"
+  name: "Z-Shell | ❮ ZI ❯"
+  introTitle: "<i class='fa-solid fa-chart-line'></i> Z-Uptime Status"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Sehll."
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
   summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
