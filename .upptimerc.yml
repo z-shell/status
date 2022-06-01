@@ -1,6 +1,6 @@
 owner: z-shell
 repo: status
-agent: digital-teams
+user-agent: digital-teams
 sites:
   - name: wiki.zshell.dev
     url: https://z-shell.pages.dev
