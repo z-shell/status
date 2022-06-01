@@ -1,5 +1,6 @@
 owner: z-shell
 repo: status
+agent: z-shell
 sites:
   - name: wiki.zshell.dev
     url: https://z-shell.pages.dev
