@@ -86,7 +86,7 @@ status-website:
   metaTags:
     - name: "robots"
       content: "noindex"
-  css: "body { opacity: 0.5 }"
+  # css: "body { opacity: 0.5 }"
   baseUrl: /
   theme: night
   cname: status.zshell.dev
