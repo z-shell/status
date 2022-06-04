@@ -120,7 +120,7 @@ workflowSchedule:
 commitMessages:
   commitAuthorName: "digital-teams[Bot]"
   commitAuthorEmail: "digital-teams@pm.me"
-user-agent: z-shell
+user-agent: digital-teams
 assignees:
   - jwdevelab
 # See https://upptime.js.org/docs/configuration
