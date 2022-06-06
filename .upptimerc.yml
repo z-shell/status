@@ -35,8 +35,8 @@ sites:
       - 201
       - 301
       - 302
-  - name: cdn.digitalclouds.dev
-    url: https://cdn.digitalclouds.dev/fa/js/all.js
+  - name: z.digitalclouds.dev
+    url: https://z.digitalclouds.dev/assets/js/all.js
   - name: RAW github.com
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
   - name: RAW gitlab.com
