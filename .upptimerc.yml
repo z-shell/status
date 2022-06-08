@@ -4,7 +4,7 @@ sites:
   - name: wiki.zshell.dev
     url: https://z-shell.pages.dev
   - name: ipfs.zshell.dev
-    url: https://zi-src.on.fleek.co
+    url: https://ipfs.zshell.dev
   - name: init.zshell.dev
     url: https://init.zshell.dev
     expectedStatusCodes:
@@ -92,7 +92,7 @@ status-website:
   cname: status.zshell.dev
   apiBaseUrl: https://api.github.com
   name: "Z-Shell"
-  introTitle: "<i class='fa-solid fa-chart-line'></i> ❮ ZI ❯ Uptime Status"
+  introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Shell."
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
   summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
@@ -115,12 +115,12 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/15 * * * *"
+  uptime: "*/60 * * * *"
 # Commits to git history to keep a track of response times, and also commits graphs and README updates.
 commitMessages:
   commitAuthorName: "digital-teams[Bot]"
   commitAuthorEmail: "digital-teams@pm.me"
 user-agent: digital-teams
-assignees:
-  - jwdevelab
+#assignees:
+#  - jwdevelab
 # See https://upptime.js.org/docs/configuration
