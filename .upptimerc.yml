@@ -10,7 +10,7 @@ sites:
       - 201
       - 301
       - 302
-      - 503    
+      - 503
   - name: init.zshell.dev
     url: https://init.zshell.dev
     expectedStatusCodes:
