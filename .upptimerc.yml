@@ -5,6 +5,12 @@ sites:
     url: https://z-shell.pages.dev
   - name: ipfs.zshell.dev
     url: https://ipfs.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503    
   - name: init.zshell.dev
     url: https://init.zshell.dev
     expectedStatusCodes:
