@@ -5,6 +5,12 @@ sites:
     url: https://z.digitalclouds.dev/assets/js/all.js
   - name: raw.zshell.dev
     url: https://raw.zshell.dev/sh/install.sh
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 503
   - name: ipfs.zshell.dev
     url: https://ipfs.zshell.dev/sh/install.sh
     expectedStatusCodes:
