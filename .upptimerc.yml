@@ -1,10 +1,12 @@
 owner: z-shell
 repo: status
 sites:
-  - name: wiki.zshell.dev
-    url: https://z-shell.pages.dev
+  - name: z.digitalclouds.dev
+    url: https://z.digitalclouds.dev/assets/js/all.js
+  - name: raw.zshell.dev
+    url: https://raw.zshell.dev/sh/install.sh
   - name: ipfs.zshell.dev
-    url: https://ipfs.zshell.dev
+    url: https://ipfs.zshell.dev/sh/install.sh
     expectedStatusCodes:
       - 200
       - 201
@@ -41,8 +43,6 @@ sites:
       - 201
       - 301
       - 302
-  - name: z.digitalclouds.dev
-    url: https://z.digitalclouds.dev/assets/js/all.js
   - name: RAW github.com
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
   - name: RAW gitlab.com
