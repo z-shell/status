@@ -25,19 +25,17 @@
     "icon": "https://favicons.githubusercontent.com/raw.zshell.dev",
     "slug": "raw-zshell-dev",
     "status": "up",
-    "uptime": "5.93%",
-    "uptimeDay": "5.93%",
-    "uptimeWeek": "5.93%",
-    "uptimeMonth": "5.93%",
-    "uptimeYear": "5.93%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 115,
     "timeDay": 115,
     "timeWeek": 115,
     "timeMonth": 115,
     "timeYear": 115,
-    "dailyMinutesDown": {
-      "2022-06-16": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ipfs.zshell.dev",
