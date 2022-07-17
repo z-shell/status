@@ -98,7 +98,7 @@ status-website:
   metaTags:
     - name: "robots"
       content: "noindex"
-  # css: "body { opacity: 0.5 }"
+  css: "body { opacity: 0.5 }"
   baseUrl: /
   theme: night
   cname: status.zshell.dev
@@ -119,7 +119,6 @@ status-website:
       href: https://github.zshell.dev
     - title: Z-Shell Organization
       href: https://github.com/$OWNER
-# Customize the schedule when Uptime workflows run by adding the workflowSchedule key in your configuration file.
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
@@ -128,11 +127,10 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/60 * * * *"
-# Commits to git history to keep a track of response times, and also commits graphs and README updates.
 commitMessages:
   commitAuthorName: "digital-teams[Bot]"
   commitAuthorEmail: "digital-teams@pm.me"
-user-agent: digital-teams
-#assignees:
-#  - jwdevelab
+  user-agent: digital-teams
+assignees:
+   - 0xMRTT
 # See https://upptime.js.org/docs/configuration
