@@ -1,8 +1,8 @@
 owner: z-shell
 repo: status
 sites:
-  - name: z.digitalclouds.dev
-    url: https://z.digitalclouds.dev/assets/js/all.js
+  - name: wiki.zshell.dev
+    url: https://wiki.zshell.dev/assets/js/all.js
   - name: raw.zshell.dev
     url: https://raw.zshell.dev/sh/install.sh
     expectedStatusCodes:
@@ -131,6 +131,6 @@ commitMessages:
   commitAuthorName: "digital-teams[Bot]"
   commitAuthorEmail: "digital-teams@pm.me"
   user-agent: digital-teams
-assignees:
-   - 0xMRTT
+#assignees:
+#   - 0xMRTT
 # See https://upptime.js.org/docs/configuration
