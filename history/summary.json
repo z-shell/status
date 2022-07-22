@@ -5,18 +5,17 @@
     "icon": "https://favicons.githubusercontent.com/wiki.zshell.dev",
     "slug": "wiki-zshell-dev",
     "status": "up",
-    "uptime": "97.89%",
-    "uptimeDay": "99.80%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "97.89%",
+    "uptime": "97.97%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "97.97%",
     "time": 334,
     "timeDay": 871,
     "timeWeek": 661,
     "timeMonth": 661,
     "timeYear": 334,
     "dailyMinutesDown": {
-      "2022-07-22": 3,
       "2022-06-16": 53,
       "2022-06-01": 25
     }
