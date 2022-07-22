@@ -2,7 +2,7 @@ owner: z-shell
 repo: status
 sites:
   - name: wiki.zshell.dev
-    url: https://wiki.zshell.dev/assets/js/all.js
+    url: https://wiki.zshell.dev/r2/assets/js/all.js
   - name: raw.zshell.dev
     url: https://raw.zshell.dev/sh/install.sh
     expectedStatusCodes:
