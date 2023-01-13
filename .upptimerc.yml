@@ -1,0 +1,145 @@
+owner: z-shell
+repo: status
+sites:
+  - name: wiki.zshell.dev
+    url: https://wiki.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+  - name: r2.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://r2.zshell.dev/src/zsh/init.zsh
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+      - 403
+  - name: src.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://src.zshell.dev/zsh/init.zsh
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: ipfs.zshell.dev
+    icon: https://ipfs.tech/favicon.ico
+    url: https://ipfs.zshell.dev/zsh/init.zsh
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: init.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://init.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: get.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://get.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: git.io/zi-loader
+    icon: https://github.blog/favicon.ico
+    url: https://git.io/zi-loader
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: git.io/get-zi
+    icon: https://github.blog/favicon.ico
+    url: https://git.io/get-zi
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  - name: RAW github.com
+    icon: https://github.blog/favicon.ico
+    url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
+  - name: RAW gitlab.com
+    icon: https://gitlab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png
+    url: https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md
+  - name: Google DNS-over-TLS
+    url: https://dns.google
+    icon: https://www.google.com/favicon.ico
+  - name: Cloudflare DNS-over-TLS
+    url: https://cloudflare-dns.com
+    icon: https://www.cloudflare.com/favicon.ico
+  - name: translate.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://translate.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
+  #- name: Secret Site
+  #  url: $SECRET_SITE
+  #- name: API endpoint
+  #  url: https://example.com/get-user/3?api_key=$MY_API_KEY
+  #- name: API endpoint
+  #  url: https://example.com/get-user/3
+  #  headers:
+  #   - "Authorization: Bearer $SECRET_SITE_2"
+  #   - "Content-Type: application/json"
+  #- name: API endpoint with data
+  #  method: POST
+  #  url: https://example.com/login
+  #  headers:
+  #    - "Content-Type: application/json"
+  #  body: '{ "password": "hello" }'
+status-website:
+  #  scripts:
+  #    - src: https://github.zshell.dev/fa/js/all.min.js
+  #      async: true
+  links:
+    - rel: stylesheet
+      href: https://r2.zshell.dev/fa/6.2.1/css/all.min.css
+  themeUrl: https://status.zshell.dev/themes/night.css
+  logoUrl: https://github.com/z-shell.png
+  metaTags:
+    - name: "robots"
+      content: "noindex"
+  css: "body { opacity: 1 }"
+  baseUrl: /
+  theme: night
+  cname: status.zshell.dev
+  apiBaseUrl: https://api.github.com
+  name: "Z-Shell"
+  introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
+  introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Shell."
+  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":bento: Update graphs [skip ci] [upptime]"
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+    - title: Contact
+      href: https://github.zshell.dev
+    - title: Z-Shell Organization
+      href: https://github.com/$OWNER
+#workflowSchedule:
+#  graphs: "0 0 * * *"
+#  responseTime: "0 23 * * *"
+#  staticSite: "0 1 * * *"
+#  summary: "0 0 * * *"
+#  updateTemplate: "0 0 * * *"
+#  updates: "0 3 * * *"
+#  uptime: "*/60 * * * *"
+commitMessages:
+  commitAuthorName: "digital-teams[Bot]"
+  commitAuthorEmail: "actions@zshell.dev"
+#assignees:
+#   - SomeUser
+# See https://upptime.js.org/docs/configuration
