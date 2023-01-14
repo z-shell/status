@@ -21,14 +21,6 @@ sites:
       - 201
       - 301
       - 302
-  - name: ipfs.zshell.dev
-    icon: https://ipfs.tech/favicon.ico
-    url: https://ipfs.zshell.dev
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
   - name: init.zshell.dev
     icon: https://wiki.zshell.dev/favicon.ico
     url: https://init.zshell.dev
