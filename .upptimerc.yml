@@ -23,7 +23,7 @@ sites:
       - 302
   - name: ipfs.zshell.dev
     icon: https://ipfs.tech/favicon.ico
-    url: https://ipfs.zshell.dev/zsh/init.zsh
+    url: https://ipfs.zshell.dev
     expectedStatusCodes:
       - 200
       - 201
