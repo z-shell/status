@@ -1,7 +1,7 @@
 url: https://ipfs.zshell.dev/zsh/init.zsh
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-01-14T05:37:33.259Z
+status: up
+code: 200
+responseTime: 616
+lastUpdated: 2023-01-14T05:53:16.085Z
 startTime: Fri Jan 13 2023 12:56:24 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
