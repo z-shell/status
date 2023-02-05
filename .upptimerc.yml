@@ -129,13 +129,11 @@ status-website:
   #  scripts:
   #    - src: https://github.zshell.dev/fa/js/all.min.js
   #      async: true
-  theme: night  
+  theme: night
   links:
     - rel: stylesheet
       href: https://cdn.statically.io/gh/FortAwesome/Font-Awesome/6.x/css/all.min.css
   metaTags:
     - name: "robots"
       content: "noindex"
-  css: "body { opacity: 1 }"
-
 # See https://upptime.js.org/docs/configuration
