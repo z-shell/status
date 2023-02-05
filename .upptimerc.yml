@@ -111,6 +111,8 @@ status-website:
   themeUrl: https://status.zshell.dev/themes/night.css
   apiBaseUrl: https://api.github.com
   userContentBaseUrl: https://raw.githubusercontent.com
+  favicon: https://pub-d86917d4b472424c8732bbf79bf56cc3.r2.dev/img/favicon.ico
+  faviconSvg: https://pub-d86917d4b472424c8732bbf79bf56cc3.r2.dev/img/logo.svg
   introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Shell."
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
