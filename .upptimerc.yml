@@ -135,7 +135,10 @@ status-website:
   links:
     - rel: stylesheet
       href: https://cdn.statically.io/gh/FortAwesome/Font-Awesome/6.x/css/all.min.css
+  css: "body { opacity: 0.5 }"
   metaTags:
+    - name: "color-scheme"
+      content: "dark light"
     - name: "robots"
       content: "noindex"
 # See https://upptime.js.org/docs/configuration
