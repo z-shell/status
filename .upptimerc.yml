@@ -1,5 +1,9 @@
 owner: z-shell
 repo: status
+user-agent: Googlebot
+
+# --- UPTIME SETTINGS ---
+
 sites:
   - name: wiki.zshell.dev
     url: https://wiki.zshell.dev
@@ -38,7 +42,7 @@ sites:
       - 301
       - 302
   - name: git.io/zi-loader
-    icon: https://github.blog/favicon.ico
+    icon: https://github.com/favicon.ico
     url: https://git.io/zi-loader
     expectedStatusCodes:
       - 200
@@ -46,7 +50,7 @@ sites:
       - 301
       - 302
   - name: git.io/get-zi
-    icon: https://github.blog/favicon.ico
+    icon: https://github.com/favicon.ico
     url: https://git.io/get-zi
     expectedStatusCodes:
       - 200
@@ -54,7 +58,7 @@ sites:
       - 301
       - 302
   - name: RAW github.com
-    icon: https://github.blog/favicon.ico
+    icon: https://github.com/favicon.ico
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
   - name: RAW gitlab.com
     icon: https://gitlab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png
@@ -88,24 +92,25 @@ sites:
   #  headers:
   #    - "Content-Type: application/json"
   #  body: '{ "password": "hello" }'
+commitMessages:
+  commitAuthorName: "digital-teams[Bot]"
+  commitAuthorEmail: "actions@zshell.dev"
+#notifications:
+#  - type: slack
+#    channel: C016QT****
+#assignees:
+#   - SomeUser
+
+# --- WEBSITE SETTINGS ---
+
 status-website:
-  #  scripts:
-  #    - src: https://github.zshell.dev/fa/js/all.min.js
-  #      async: true
-  links:
-    - rel: stylesheet
-      href: https://r2.zshell.dev/fa/6.2.1/css/all.min.css
-  themeUrl: https://status.zshell.dev/themes/night.css
-  logoUrl: https://github.com/z-shell.png
-  metaTags:
-    - name: "robots"
-      content: "noindex"
-  css: "body { opacity: 1 }"
-  baseUrl: /
-  theme: night
-  cname: status.zshell.dev
-  apiBaseUrl: https://api.github.com
   name: "Z-Shell"
+  cname: status.zshell.dev
+  baseUrl: /
+  logoUrl: https://github.com/z-shell.png
+  themeUrl: https://status.zshell.dev/themes/night.css
+  apiBaseUrl: https://api.github.com
+  userContentBaseUrl: https://raw.githubusercontent.com
   introTitle: "<i class='fa-solid fa-chart-line'></i> Uptime Status"
   introMessage: "<i class='fa-brands fa-connectdevelop'></i> The open-source uptime monitor and status page for Z-Shell."
   readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
@@ -121,17 +126,16 @@ status-website:
       href: https://github.zshell.dev
     - title: Z-Shell Organization
       href: https://github.com/$OWNER
-#workflowSchedule:
-#  graphs: "0 0 * * *"
-#  responseTime: "0 23 * * *"
-#  staticSite: "0 1 * * *"
-#  summary: "0 0 * * *"
-#  updateTemplate: "0 0 * * *"
-#  updates: "0 3 * * *"
-#  uptime: "*/60 * * * *"
-commitMessages:
-  commitAuthorName: "digital-teams[Bot]"
-  commitAuthorEmail: "actions@zshell.dev"
-#assignees:
-#   - SomeUser
+  #  scripts:
+  #    - src: https://github.zshell.dev/fa/js/all.min.js
+  #      async: true
+  theme: night  
+  links:
+    - rel: stylesheet
+      href: https://cdn.statically.io/gh/FortAwesome/Font-Awesome/6.x/css/all.min.css
+  metaTags:
+    - name: "robots"
+      content: "noindex"
+  css: "body { opacity: 1 }"
+
 # See https://upptime.js.org/docs/configuration
