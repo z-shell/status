@@ -1,17 +1,17 @@
 version: 0.1
 cli:
-  version: 1.4.1
+  version: 1.5.0
 plugins:
   sources:
     - id: trunk
-      ref: v0.0.9
+      ref: v0.0.11
       uri: https://github.com/trunk-io/plugins
 lint:
   enabled:
     - markdownlint@0.33.0
     - git-diff-check
     - actionlint@1.6.23
-    - prettier@2.8.3
+    - prettier@2.8.4
     - gitleaks@8.15.3
   ignore:
     - linters: [ALL]

@@ -140,5 +140,4 @@ status-website:
       content: "dark light"
     - name: "robots"
       content: "noindex"
-
 # See https://upptime.js.org/docs/configuration
