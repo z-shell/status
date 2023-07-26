@@ -233,19 +233,19 @@
     "url": "https://cloudflare-dns.com",
     "icon": "https://www.cloudflare.com/favicon.ico",
     "slug": "cloudflare-dns-over-tls",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.47%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 127,
-    "timeDay": 427,
-    "timeWeek": 325,
-    "timeMonth": 386,
-    "timeYear": 127,
+    "time": 129,
+    "timeDay": 484,
+    "timeWeek": 352,
+    "timeMonth": 391,
+    "timeYear": 129,
     "dailyMinutesDown": {
-      "2023-07-26": 0
+      "2023-07-26": 8
     }
   },
   {
