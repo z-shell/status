@@ -233,9 +233,9 @@
     "url": "https://cloudflare-dns.com",
     "icon": "https://www.cloudflare.com/favicon.ico",
     "slug": "cloudflare-dns-over-tls",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -244,7 +244,9 @@
     "timeWeek": 325,
     "timeMonth": 386,
     "timeYear": 127,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-26": 0
+    }
   },
   {
     "name": "translate.zshell.dev",
