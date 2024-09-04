@@ -11,10 +11,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.56%",
     "time": 161,
-    "timeDay": 242,
-    "timeWeek": 209,
-    "timeMonth": 204,
-    "timeYear": 161,
+    "timeDay": 284,
+    "timeWeek": 226,
+    "timeMonth": 207,
+    "timeYear": 162,
     "dailyMinutesDown": {
       "2024-04-12": 1307,
       "2024-04-11": 971,
@@ -33,9 +33,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.56%",
     "time": 381,
-    "timeDay": 215,
-    "timeWeek": 296,
-    "timeMonth": 332,
+    "timeDay": 430,
+    "timeWeek": 313,
+    "timeMonth": 336,
     "timeYear": 349,
     "dailyMinutesDown": {
       "2024-04-23": 8,
@@ -57,10 +57,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.56%",
     "time": 154,
-    "timeDay": 175,
-    "timeWeek": 165,
-    "timeMonth": 166,
-    "timeYear": 155,
+    "timeDay": 147,
+    "timeWeek": 155,
+    "timeMonth": 165,
+    "timeYear": 156,
     "dailyMinutesDown": {
       "2024-04-12": 1307,
       "2024-04-11": 970,
@@ -79,14 +79,13 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.56%",
     "time": 222,
-    "timeDay": 135,
-    "timeWeek": 239,
+    "timeDay": 235,
+    "timeWeek": 234,
     "timeMonth": 204,
     "timeYear": 225,
     "dailyMinutesDown": {
       "2024-04-12": 1307,
-      "2024-04-11": 970,
-      "2023-09-05": 12
+      "2024-04-11": 970
     }
   },
   {
@@ -95,20 +94,19 @@
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "get-zshell-dev",
     "status": "up",
-    "uptime": "99.67%",
+    "uptime": "99.68%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.56%",
     "time": 232,
-    "timeDay": 141,
-    "timeWeek": 202,
-    "timeMonth": 176,
+    "timeDay": 126,
+    "timeWeek": 184,
+    "timeMonth": 170,
     "timeYear": 204,
     "dailyMinutesDown": {
       "2024-04-12": 1316,
-      "2024-04-11": 970,
-      "2023-09-05": 11
+      "2024-04-11": 970
     }
   },
   {
@@ -122,15 +120,14 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 263,
-    "timeDay": 249,
-    "timeWeek": 270,
-    "timeMonth": 241,
+    "time": 264,
+    "timeDay": 328,
+    "timeWeek": 262,
+    "timeMonth": 239,
     "timeYear": 263,
     "dailyMinutesDown": {
       "2024-04-10": 9,
-      "2023-12-03": 7,
-      "2023-09-05": 11
+      "2023-12-03": 7
     }
   },
   {
@@ -145,15 +142,14 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 58,
-    "timeDay": 30,
-    "timeWeek": 49,
+    "timeDay": 82,
+    "timeWeek": 47,
     "timeMonth": 37,
     "timeYear": 39,
     "dailyMinutesDown": {
       "2023-12-26": 80,
       "2023-12-03": 7,
-      "2023-09-20": 17,
-      "2023-09-05": 10
+      "2023-09-20": 17
     }
   },
   {
@@ -168,13 +164,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 130,
-    "timeDay": 66,
-    "timeWeek": 90,
-    "timeMonth": 74,
+    "timeDay": 10,
+    "timeWeek": 69,
+    "timeMonth": 70,
     "timeYear": 126,
-    "dailyMinutesDown": {
-      "2023-09-05": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "RAW gitlab.com",
@@ -188,9 +182,9 @@
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.99%",
     "time": 263,
-    "timeDay": 2197,
-    "timeWeek": 888,
-    "timeMonth": 394,
+    "timeDay": 2222,
+    "timeWeek": 893,
+    "timeMonth": 395,
     "timeYear": 220,
     "dailyMinutesDown": {
       "2024-09-03": 20,
@@ -209,10 +203,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 126,
-    "timeDay": 93,
-    "timeWeek": 181,
-    "timeMonth": 120,
+    "time": 127,
+    "timeDay": 160,
+    "timeWeek": 141,
+    "timeMonth": 121,
     "timeYear": 118,
     "dailyMinutesDown": {}
   },
@@ -227,10 +221,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 285,
-    "timeDay": 208,
-    "timeWeek": 164,
-    "timeMonth": 183,
+    "time": 286,
+    "timeDay": 240,
+    "timeWeek": 156,
+    "timeMonth": 187,
     "timeYear": 296,
     "dailyMinutesDown": {
       "2024-06-20": 5,
@@ -249,10 +243,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.57%",
     "time": 420,
-    "timeDay": 297,
-    "timeWeek": 474,
-    "timeMonth": 438,
-    "timeYear": 410,
+    "timeDay": 740,
+    "timeWeek": 465,
+    "timeMonth": 434,
+    "timeYear": 411,
     "dailyMinutesDown": {
       "2024-04-12": 1307,
       "2024-04-11": 970
