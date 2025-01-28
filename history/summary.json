@@ -111,18 +111,19 @@
     "url": "https://git.io/zi-loader",
     "icon": "https://github.com/favicon.ico",
     "slug": "git-io-zi-loader",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "98.82%",
+    "uptimeDay": "98.81%",
     "uptimeWeek": "99.83%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 248,
-    "timeDay": 173,
+    "timeDay": 180,
     "timeWeek": 214,
     "timeMonth": 217,
     "timeYear": 254,
     "dailyMinutesDown": {
+      "2025-01-28": 0,
       "2025-01-27": 17,
       "2024-04-10": 9
     }
