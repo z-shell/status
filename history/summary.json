@@ -192,19 +192,19 @@
     "url": "https://dns.google",
     "icon": "https://www.google.com/favicon.ico",
     "slug": "google-dns-over-tls",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 116,
-    "timeDay": 110,
+    "timeDay": 109,
     "timeWeek": 108,
-    "timeMonth": 118,
+    "timeMonth": 117,
     "timeYear": 108,
     "dailyMinutesDown": {
-      "2025-01-29": 0
+      "2025-01-29": 7
     }
   },
   {
