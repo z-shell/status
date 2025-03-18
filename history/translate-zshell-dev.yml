@@ -1,7 +1,7 @@
 url: https://translate.zshell.dev
-status: up
-code: 200
-responseTime: 287
-lastUpdated: 2025-03-18T00:15:55.145Z
+status: down
+code: 403
+responseTime: 483
+lastUpdated: 2025-03-18T03:20:47.008Z
 startTime: 2023-01-13T12:56:31.000Z
 generator: Upptime <https://github.com/upptime/upptime>
