@@ -8,20 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     name: 🔁 Rebase
     if: >-
-      github.event.issue.pull_request != '' && 
+      github.event.issue.pull_request != '' &&
       (
-        contains(github.event.comment.body, '/rebase') || 
+        contains(github.event.comment.body, '/rebase') ||
         contains(github.event.comment.body, '/autosquash')
       )
     steps:
       - name: Checkout the latest code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ACTIONS_TOKEN }}
+          token: ${{ secrets.ORG_TOKEN }}
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
       - name: 🔁 Rebase
         uses: z-shell/.github/actions/rebase@main
         with:
           autosquash: ${{ contains(github.event.comment.body, '/autosquash') || contains(github.event.comment.body, '/rebase-autosquash') }}
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ORG_TOKEN }}
