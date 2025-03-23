@@ -38,7 +38,6 @@
     "timeYear": 304,
     "dailyMinutesDown": {
       "2025-02-06": 53,
-      "2024-04-23": 8,
       "2024-04-12": 1307,
       "2024-04-11": 970
     }
@@ -173,15 +172,14 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 220,
     "timeDay": 95,
     "timeWeek": 208,
     "timeMonth": 209,
     "timeYear": 234,
     "dailyMinutesDown": {
-      "2024-09-03": 20,
-      "2024-05-22": 9
+      "2024-09-03": 20
     }
   },
   {
@@ -219,8 +217,7 @@
     "timeMonth": 193,
     "timeYear": 204,
     "dailyMinutesDown": {
-      "2024-12-20": 58,
-      "2024-06-20": 5
+      "2024-12-20": 58
     }
   },
   {
@@ -228,19 +225,19 @@
     "url": "https://translate.zshell.dev",
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "translate-zshell-dev",
-    "status": "down",
+    "status": "up",
     "uptime": "99.79%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.79%",
-    "uptimeMonth": "99.81%",
+    "uptimeDay": "99.53%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.80%",
     "uptimeYear": "99.55%",
-    "time": 417,
-    "timeDay": 335,
+    "time": 416,
+    "timeDay": 339,
     "timeWeek": 391,
-    "timeMonth": 414,
+    "timeMonth": 413,
     "timeYear": 422,
     "dailyMinutesDown": {
-      "2025-03-23": 0,
+      "2025-03-23": 7,
       "2025-03-18": 16,
       "2025-03-17": 5,
       "2025-03-02": 34,
