@@ -112,7 +112,7 @@
     "icon": "https://github.com/favicon.ico",
     "slug": "git-io-zi-loader",
     "status": "up",
-    "uptime": "99.92%",
+    "uptime": "99.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -123,7 +123,7 @@
     "timeMonth": 222,
     "timeYear": 258,
     "dailyMinutesDown": {
-      "2025-01-29": 63,
+      "2025-01-29": 39,
       "2025-01-28": 22,
       "2025-01-27": 17,
       "2024-04-10": 9
@@ -203,9 +203,7 @@
     "timeWeek": 116,
     "timeMonth": 106,
     "timeYear": 131,
-    "dailyMinutesDown": {
-      "2025-01-29": 17
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Cloudflare DNS-over-TLS",
@@ -233,19 +231,19 @@
     "url": "https://translate.zshell.dev",
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "translate-zshell-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "99.28%",
-    "uptimeWeek": "99.69%",
-    "uptimeMonth": "99.79%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.79%",
+    "uptimeMonth": "99.81%",
     "uptimeYear": "99.55%",
     "time": 418,
-    "timeDay": 375,
-    "timeWeek": 399,
-    "timeMonth": 418,
-    "timeYear": 423,
+    "timeDay": 345,
+    "timeWeek": 392,
+    "timeMonth": 416,
+    "timeYear": 422,
     "dailyMinutesDown": {
-      "2025-03-23": 10,
+      "2025-03-23": 0,
       "2025-03-18": 16,
       "2025-03-17": 5,
       "2025-03-02": 34,
