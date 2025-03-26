@@ -27,41 +27,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.ORG_TOKEN || github.token }}
       - name: Update template
-        uses: upptime/uptime-monitor@v1.39.0
+        uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.39.0
+        uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "response-time"
         env:
           GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
       - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.39.0
+        uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
       - name: Generate graphs
-        uses: benc-uk/workflow-dispatch@v1
+        uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1
         with:
           workflow: Graphs CI
           token: ${{ secrets.ORG_TOKEN || github.token }}
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.39.0
+        uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "site"
         env:
           GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
         name: GitHub Pages Deploy
         with:
           github_token: ${{ secrets.ORG_TOKEN || github.token }}
