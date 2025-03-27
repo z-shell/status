@@ -20,19 +20,24 @@ on:
   repository_dispatch:
     types: [graphs]
   workflow_dispatch:
+
 jobs:
   release:
     name: Generate graphs
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.ORG_TOKEN || github.token }}
+          token: ${{ secrets.GITHUB_TOKEN || github.token }}
       - name: Generate graphs
         uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "graphs"
         env:
-          GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
+          GH_PAT: ${{ secrets.GITHUB_TOKEN || github.token }}
