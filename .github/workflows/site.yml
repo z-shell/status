@@ -20,27 +20,33 @@ on:
   repository_dispatch:
     types: [static_site]
   workflow_dispatch:
+
+permissions: read-all
+
 jobs:
   release:
     name: Build and deploy site
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+      pages: write
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.ORG_TOKEN || github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate site
         uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
         with:
           command: "site"
         env:
-          GH_PAT: ${{ secrets.ORG_TOKEN || github.token }}
+          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       - uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
         name: GitHub Pages Deploy
         with:
-          github_token: ${{ secrets.ORG_TOKEN || github.token }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
           user_name: "digital-teams[Bot]"
