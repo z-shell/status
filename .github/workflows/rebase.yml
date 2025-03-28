@@ -3,9 +3,16 @@ name: "🔁 Rebase"
 on:
   issue_comment:
     types: [created]
+
+permissions: read-all
+
 jobs:
   rebase:
     runs-on: ubuntu-latest
+    permissions:
+      issues: read
+      contents: read
+      pull-requests: write
     name: 🔁 Rebase
     if: >-
       github.event.issue.pull_request != '' &&
@@ -17,11 +24,11 @@ jobs:
       - name: Checkout the latest code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
-          token: ${{ secrets.ORG_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
       - name: 🔁 Rebase
         uses: z-shell/.github/actions/rebase@main
         with:
           autosquash: ${{ contains(github.event.comment.body, '/autosquash') || contains(github.event.comment.body, '/rebase-autosquash') }}
         env:
-          GITHUB_TOKEN: ${{ secrets.ORG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
