@@ -9,15 +9,13 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.68%",
-    "time": 178,
-    "timeDay": 228,
-    "timeWeek": 236,
-    "timeMonth": 229,
+    "uptimeYear": "99.75%",
+    "time": 179,
+    "timeDay": 254,
+    "timeWeek": 240,
+    "timeMonth": 233,
     "timeYear": 190,
-    "dailyMinutesDown": {
-      "2024-04-12": 1307
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "r2.zshell.dev",
@@ -29,15 +27,14 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.67%",
-    "time": 319,
-    "timeDay": 348,
-    "timeWeek": 360,
-    "timeMonth": 317,
-    "timeYear": 303,
+    "uptimeYear": "99.74%",
+    "time": 320,
+    "timeDay": 662,
+    "timeWeek": 396,
+    "timeMonth": 329,
+    "timeYear": 304,
     "dailyMinutesDown": {
-      "2025-02-06": 53,
-      "2024-04-12": 1307
+      "2025-02-06": 53
     }
   },
   {
@@ -50,15 +47,13 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.68%",
+    "uptimeYear": "99.75%",
     "time": 160,
-    "timeDay": 174,
-    "timeWeek": 205,
+    "timeDay": 129,
+    "timeWeek": 196,
     "timeMonth": 177,
     "timeYear": 164,
-    "dailyMinutesDown": {
-      "2024-04-12": 1307
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "init.zshell.dev",
@@ -70,15 +65,13 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.68%",
+    "uptimeYear": "99.75%",
     "time": 197,
-    "timeDay": 333,
-    "timeWeek": 264,
+    "timeDay": 207,
+    "timeWeek": 249,
     "timeMonth": 230,
     "timeYear": 206,
-    "dailyMinutesDown": {
-      "2024-04-12": 1307
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "get.zshell.dev",
@@ -90,15 +83,13 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.68%",
+    "uptimeYear": "99.75%",
     "time": 175,
-    "timeDay": 216,
-    "timeWeek": 265,
+    "timeDay": 170,
+    "timeWeek": 231,
     "timeMonth": 211,
     "timeYear": 183,
-    "dailyMinutesDown": {
-      "2024-04-12": 1307
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "git.io/zi-loader",
@@ -111,10 +102,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 245,
-    "timeDay": 252,
-    "timeWeek": 267,
-    "timeMonth": 205,
+    "time": 244,
+    "timeDay": 110,
+    "timeWeek": 234,
+    "timeMonth": 201,
     "timeYear": 258,
     "dailyMinutesDown": {
       "2025-01-29": 39
@@ -132,9 +123,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 37,
-    "timeDay": 73,
-    "timeWeek": 53,
-    "timeMonth": 45,
+    "timeDay": 22,
+    "timeWeek": 46,
+    "timeMonth": 46,
     "timeYear": 37,
     "dailyMinutesDown": {}
   },
@@ -150,8 +141,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 78,
-    "timeDay": 174,
-    "timeWeek": 114,
+    "timeDay": 71,
+    "timeWeek": 104,
     "timeMonth": 92,
     "timeYear": 78,
     "dailyMinutesDown": {}
@@ -168,9 +159,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 221,
-    "timeDay": 160,
-    "timeWeek": 237,
-    "timeMonth": 216,
+    "timeDay": 199,
+    "timeWeek": 229,
+    "timeMonth": 217,
     "timeYear": 237,
     "dailyMinutesDown": {
       "2024-09-03": 20
@@ -188,9 +179,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 126,
-    "timeDay": 192,
-    "timeWeek": 128,
-    "timeMonth": 102,
+    "timeDay": 197,
+    "timeWeek": 125,
+    "timeMonth": 105,
     "timeYear": 131,
     "dailyMinutesDown": {}
   },
@@ -206,9 +197,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 236,
-    "timeDay": 118,
-    "timeWeek": 210,
-    "timeMonth": 203,
+    "timeDay": 227,
+    "timeWeek": 222,
+    "timeMonth": 207,
     "timeYear": 206,
     "dailyMinutesDown": {
       "2024-12-20": 58
@@ -224,11 +215,11 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.91%",
-    "uptimeYear": "99.66%",
-    "time": 422,
-    "timeDay": 586,
-    "timeWeek": 505,
-    "timeMonth": 419,
+    "uptimeYear": "99.73%",
+    "time": 421,
+    "timeDay": 444,
+    "timeWeek": 485,
+    "timeMonth": 423,
     "timeYear": 428,
     "dailyMinutesDown": {
       "2025-03-26": 18,
@@ -236,8 +227,7 @@
       "2025-03-17": 5,
       "2025-03-02": 34,
       "2025-03-01": 0,
-      "2025-02-26": 28,
-      "2024-04-12": 1307
+      "2025-02-26": 28
     }
   }
 ]
