@@ -1,7 +1,7 @@
 url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
-status: up
-code: 200
-responseTime: 67
-lastUpdated: 2025-05-16T23:00:32.493Z
+status: down
+code: 429
+responseTime: 5
+lastUpdated: 2025-05-17T04:47:11.415Z
 startTime: 2023-01-13T12:56:28.000Z
 generator: Upptime <https://github.com/upptime/upptime>
