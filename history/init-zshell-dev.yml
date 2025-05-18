@@ -1,7 +1,7 @@
 url: https://init.zshell.dev
-status: up
-code: 200
-responseTime: 168
-lastUpdated: 2025-05-18T08:33:25.797Z
+status: down
+code: 429
+responseTime: 133
+lastUpdated: 2025-05-18T12:29:12.848Z
 startTime: 2023-01-13T12:56:25.000Z
 generator: Upptime <https://github.com/upptime/upptime>
