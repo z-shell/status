@@ -31,7 +31,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.ORG_TOKEN || github.token }}
       - name: Update summary in README
-        uses: upptime/uptime-monitor@2314de1effff40159f4d7d206aa9f6d40c691db3 # v1.39.0
+        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
         with:
           command: "readme"
         env:
