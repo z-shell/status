@@ -1,7 +1,7 @@
 url: https://src.zshell.dev/zsh/init.zsh
-status: down
-code: 500
-responseTime: 1043
-lastUpdated: 2025-06-12T18:23:44.876Z
+status: up
+code: 200
+responseTime: 199
+lastUpdated: 2025-06-12T19:25:16.450Z
 startTime: 2023-01-13T12:56:24.000Z
 generator: Upptime <https://github.com/upptime/upptime>
