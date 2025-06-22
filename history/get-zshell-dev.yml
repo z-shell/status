@@ -1,7 +1,7 @@
 url: https://get.zshell.dev
-status: down
-code: 500
+status: up
+code: 200
 responseTime: 168
-lastUpdated: 2025-06-22T15:07:14.897Z
+lastUpdated: 2025-06-22T15:18:27.075Z
 startTime: 2023-01-13T12:56:26.000Z
 generator: Upptime <https://github.com/upptime/upptime>
