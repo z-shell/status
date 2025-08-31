@@ -152,17 +152,17 @@
     "url": "https://gitlab.com/ss-o/zi/-/raw/main/docs/README.md",
     "icon": "https://gitlab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png",
     "slug": "raw-gitlab-com",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 234,
-    "timeDay": 308,
-    "timeWeek": 283,
-    "timeMonth": 235,
-    "timeYear": 231,
+    "time": 240,
+    "timeDay": 1575,
+    "timeWeek": 602,
+    "timeMonth": 316,
+    "timeYear": 238,
     "dailyMinutesDown": {
       "2024-09-03": 20
     }
