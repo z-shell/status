@@ -11,10 +11,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 214,
-    "timeDay": 181,
-    "timeWeek": 1006,
-    "timeMonth": 414,
-    "timeYear": 228,
+    "timeDay": 298,
+    "timeWeek": 280,
+    "timeMonth": 416,
+    "timeYear": 229,
     "dailyMinutesDown": {}
   },
   {
@@ -29,10 +29,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 310,
-    "timeDay": 272,
-    "timeWeek": 446,
-    "timeMonth": 365,
-    "timeYear": 316,
+    "timeDay": 338,
+    "timeWeek": 441,
+    "timeMonth": 366,
+    "timeYear": 317,
     "dailyMinutesDown": {
       "2025-02-06": 53
     }
@@ -49,10 +49,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 173,
-    "timeDay": 149,
-    "timeWeek": 220,
-    "timeMonth": 187,
-    "timeYear": 177,
+    "timeDay": 241,
+    "timeWeek": 222,
+    "timeMonth": 191,
+    "timeYear": 178,
     "dailyMinutesDown": {}
   },
   {
@@ -67,9 +67,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 218,
-    "timeDay": 147,
-    "timeWeek": 271,
-    "timeMonth": 228,
+    "timeDay": 288,
+    "timeWeek": 282,
+    "timeMonth": 233,
     "timeYear": 225,
     "dailyMinutesDown": {}
   },
@@ -85,10 +85,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 201,
-    "timeDay": 115,
-    "timeWeek": 839,
-    "timeMonth": 345,
-    "timeYear": 214,
+    "timeDay": 184,
+    "timeWeek": 264,
+    "timeMonth": 348,
+    "timeYear": 215,
     "dailyMinutesDown": {}
   },
   {
@@ -103,9 +103,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 258,
-    "timeDay": 135,
-    "timeWeek": 292,
-    "timeMonth": 260,
+    "timeDay": 267,
+    "timeWeek": 309,
+    "timeMonth": 257,
     "timeYear": 265,
     "dailyMinutesDown": {
       "2025-01-29": 39
@@ -123,9 +123,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 39,
-    "timeDay": 7,
-    "timeWeek": 55,
-    "timeMonth": 43,
+    "timeDay": 56,
+    "timeWeek": 61,
+    "timeMonth": 42,
     "timeYear": 40,
     "dailyMinutesDown": {}
   },
@@ -141,9 +141,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 79,
-    "timeDay": 33,
-    "timeWeek": 111,
-    "timeMonth": 69,
+    "timeDay": 46,
+    "timeWeek": 112,
+    "timeMonth": 70,
     "timeYear": 83,
     "dailyMinutesDown": {}
   },
@@ -159,13 +159,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 240,
-    "timeDay": 202,
-    "timeWeek": 560,
-    "timeMonth": 317,
+    "timeDay": 135,
+    "timeWeek": 552,
+    "timeMonth": 313,
     "timeYear": 238,
-    "dailyMinutesDown": {
-      "2024-09-03": 20
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Google DNS-over-TLS",
@@ -179,9 +177,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 119,
-    "timeDay": 35,
-    "timeWeek": 85,
-    "timeMonth": 90,
+    "timeDay": 118,
+    "timeWeek": 96,
+    "timeMonth": 92,
     "timeYear": 122,
     "dailyMinutesDown": {}
   },
@@ -197,9 +195,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 218,
-    "timeDay": 155,
-    "timeWeek": 904,
-    "timeMonth": 359,
+    "timeDay": 333,
+    "timeWeek": 212,
+    "timeMonth": 362,
     "timeYear": 212,
     "dailyMinutesDown": {
       "2024-12-20": 58
@@ -216,10 +214,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 433,
-    "timeDay": 359,
-    "timeWeek": 600,
-    "timeMonth": 519,
+    "time": 434,
+    "timeDay": 571,
+    "timeWeek": 622,
+    "timeMonth": 520,
     "timeYear": 436,
     "dailyMinutesDown": {
       "2025-03-26": 18,
