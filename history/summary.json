@@ -78,7 +78,7 @@
     "url": "https://get.zshell.dev",
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "get-zshell-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "99.80%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
