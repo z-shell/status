@@ -1,7 +1,7 @@
 url: https://wiki.zshell.dev
-status: up
-code: 200
-responseTime: 113
-lastUpdated: 2025-11-18T14:40:53.111Z
+status: down
+code: 500
+responseTime: 103
+lastUpdated: 2025-11-18T14:49:28.020Z
 startTime: 2023-01-13T12:56:21.000Z
 generator: Upptime <https://github.com/upptime/upptime>
