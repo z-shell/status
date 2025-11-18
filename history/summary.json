@@ -22,17 +22,17 @@
     "url": "https://r2.zshell.dev/src/zsh/init.zsh",
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "r2-zshell-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "99.81%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 320,
-    "timeDay": 394,
-    "timeWeek": 374,
-    "timeMonth": 330,
-    "timeYear": 327,
+    "time": 319,
+    "timeDay": 251,
+    "timeWeek": 340,
+    "timeMonth": 323,
+    "timeYear": 326,
     "dailyMinutesDown": {
       "2025-02-06": 53
     }
