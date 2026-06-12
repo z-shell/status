@@ -202,17 +202,17 @@
     "url": "https://translate.zshell.dev",
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "translate-zshell-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "99.86%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 452,
-    "timeDay": 626,
-    "timeWeek": 429,
-    "timeMonth": 403,
-    "timeYear": 468,
+    "time": 453,
+    "timeDay": 421,
+    "timeWeek": 405,
+    "timeMonth": 399,
+    "timeYear": 467,
     "dailyMinutesDown": {}
   }
 ]
