@@ -35,41 +35,41 @@ jobs:
       pages: write
     steps:
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Update template
-        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
+        uses: upptime/uptime-monitor@5d69af5f0d5b6172fee77bb0daa7a3fc3b62139b # v1.43.5
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Update response time
-        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
+        uses: upptime/uptime-monitor@5d69af5f0d5b6172fee77bb0daa7a3fc3b62139b # v1.43.5
         with:
           command: "response-time"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
       - name: Update summary in README
-        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
+        uses: upptime/uptime-monitor@5d69af5f0d5b6172fee77bb0daa7a3fc3b62139b # v1.43.5
         with:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate graphs
-        uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1
+        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26 # v1
         with:
           workflow: Graphs CI
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate site
-        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
+        uses: upptime/uptime-monitor@5d69af5f0d5b6172fee77bb0daa7a3fc3b62139b # v1.43.5
         with:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      - uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
+      - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
         name: GitHub Pages Deploy
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

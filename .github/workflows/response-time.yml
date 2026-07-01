@@ -31,12 +31,12 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Update response time
-        uses: upptime/uptime-monitor@6996123d80fe861b66994b257d4e0eb99d9d7db6 # v1.40.1
+        uses: upptime/uptime-monitor@5d69af5f0d5b6172fee77bb0daa7a3fc3b62139b # v1.43.5
         with:
           command: "response-time"
         env:
