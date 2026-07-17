@@ -59,7 +59,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate graphs
-        uses: benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc # v1
+        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26 # v1
         with:
           workflow: Graphs CI
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -69,7 +69,7 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      - uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4
+      - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
         name: GitHub Pages Deploy
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
