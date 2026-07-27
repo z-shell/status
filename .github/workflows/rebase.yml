@@ -27,7 +27,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
       - name: 🔁 Rebase
-        uses: z-shell/.github/actions/rebase@main
+        uses: z-shell/.github/actions/rebase@8ee041623cd5a2892887357ea9f0fb443ff3d2b4 # main
         with:
           autosquash: ${{ contains(github.event.comment.body, '/autosquash') || contains(github.event.comment.body, '/rebase-autosquash') }}
         env:

@@ -31,7 +31,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Update template
-        uses: upptime/uptime-monitor@master
+        uses: upptime/uptime-monitor@65aad8bba77c40ec051f30e7329563f7f4cfab6e # master
         with:
           command: "update-template"
         env:
