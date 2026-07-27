@@ -1,23 +1,25 @@
 version: 0.1
 cli:
-  version: 1.22.11
+  version: 1.25.0
 plugins:
   sources:
     - id: trunk
-      ref: v1.6.7
+      ref: v1.10.2
       uri: https://github.com/trunk-io/plugins
 lint:
   disabled:
     - checkov
     - yamllint
+    - renovate
+    - trivy
+    - trufflehog
   enabled:
-    - trivy@0.60.0
-    - trufflehog@3.88.18
-    - markdownlint@0.44.0
+    - pinact@4.1.0
+    - markdownlint@0.49.1
     - git-diff-check
-    - actionlint@1.7.7
-    - prettier@3.5.3
-    - gitleaks@8.24.0
+    - actionlint@1.7.12
+    - prettier@3.9.6
+    - gitleaks@8.30.1
   ignore:
     - linters: [ALL]
       paths:
@@ -26,9 +28,9 @@ lint:
         - "history/**"
 runtimes:
   enabled:
-    - python@3.10.8
+    - python@3.14.4
     - go@1.21.0
-    - node@18.20.5
+    - node@22.16.0
 actions:
   enabled:
     - trunk-check-pre-push

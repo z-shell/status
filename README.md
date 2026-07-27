@@ -44,8 +44,8 @@ Upptime uses [Issues](https://github.com/z-shell/status/issues) as incident repo
 
 </div>
 <div align="left" width="100%">
-  
-  [**Visit our status website →**](https://status.zshell.dev)
+
+[**Visit our status website →**](https://status.zshell.dev)
 
 ## 📄 License
 

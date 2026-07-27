@@ -21,7 +21,7 @@ on:
   repository_dispatch:
     types: [setup]
   workflow_dispatch:
-  
+
 permissions: read-all
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
       pages: write
     steps:
       - name: Checkout
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -59,7 +59,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate graphs
-        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26 # v1
+        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26 # v1.3.2
         with:
           workflow: Graphs CI
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -69,7 +69,7 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-      - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+      - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         name: GitHub Pages Deploy
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

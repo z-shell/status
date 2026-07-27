@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/suzuki-shunsuke/pinact/refs/heads/main/json-schema/pinact.json
+# pinact - https://github.com/suzuki-shunsuke/pinact
+version: 3
+min_age:
+  value: 0
+
+rules:
+  # These actions track a moving branch (main/master) and have no upstream
+  # release tags, so pinact can't verify the SHA against a semver tag.
+  - ignore: true
+    conditions:
+      - expr: |
+          ActionName == "z-shell/.github/actions/rebase" && ActionVersion == "8ee041623cd5a2892887357ea9f0fb443ff3d2b4"
+      - expr: |
+          ActionName == "upptime/updates" && ActionVersion == "34aeafca1c9958cce8a013423d4a914a6ffc5d0e"
