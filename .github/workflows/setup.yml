@@ -28,6 +28,7 @@ jobs:
   release:
     name: Setup Upptime
     runs-on: ubuntu-latest
+    if: ${{ secrets.UPPTIME_WORKFLOW_TOKEN != '' }}
     permissions:
       actions: write
       contents: write
@@ -38,41 +39,41 @@ jobs:
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
       - name: Update template
         uses: upptime/uptime-monitor@65aad8bba77c40ec051f30e7329563f7f4cfab6e # v1.43.9
         with:
           command: "update-template"
         env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
       - name: Update response time
         uses: upptime/uptime-monitor@65aad8bba77c40ec051f30e7329563f7f4cfab6e # v1.43.9
         with:
           command: "response-time"
         env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
       - name: Update summary in README
         uses: upptime/uptime-monitor@65aad8bba77c40ec051f30e7329563f7f4cfab6e # v1.43.9
         with:
           command: "readme"
         env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
       - name: Generate graphs
         uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26 # v1.3.2
         with:
           workflow: Graphs CI
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
       - name: Generate site
         uses: upptime/uptime-monitor@65aad8bba77c40ec051f30e7329563f7f4cfab6e # v1.43.9
         with:
           command: "site"
         env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
       - uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         name: GitHub Pages Deploy
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.UPPTIME_WORKFLOW_TOKEN }}
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
           user_name: "digital-teams[Bot]"
