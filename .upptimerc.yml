@@ -32,14 +32,14 @@ sites:
       - 201
       - 301
       - 302
-  #- name: get.zshell.dev
-  #  icon: https://wiki.zshell.dev/favicon.ico
-  #  url: https://get.zshell.dev
-  #  expectedStatusCodes:
-  #    - 200
-  #    - 201
-  #    - 301
-  #    - 302
+  - name: get.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    url: https://get.zshell.dev
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 301
+      - 302
   #- name: git.io/zi-loader
   #  icon: https://github.com/favicon.ico
   #  url: https://git.io/zi-loader
@@ -48,14 +48,14 @@ sites:
   #    - 201
   #    - 301
   #    - 302
-  - name: git.io/get-zi
-    icon: https://github.com/favicon.ico
-    url: https://git.io/get-zi
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 301
-      - 302
+  #- name: git.io/get-zi
+  #  icon: https://github.com/favicon.ico
+  #  url: https://git.io/get-zi
+  #  expectedStatusCodes:
+  #    - 200
+  #    - 201
+  #    - 301
+  #    - 302
   - name: RAW github.com
     icon: https://github.com/favicon.ico
     url: https://raw.githubusercontent.com/z-shell/zi/main/docs/README.md
