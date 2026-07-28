@@ -28,7 +28,7 @@ jobs:
   release:
     name: Setup Upptime
     runs-on: ubuntu-latest
-    if: ${{ secrets.UPPTIME_WORKFLOW_TOKEN != '' }}
+    if: ${{ vars.UPPTIME_WORKFLOW_TOKEN_CONFIGURED == 'true' }}
     permissions:
       actions: write
       contents: write
