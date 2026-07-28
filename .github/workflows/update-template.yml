@@ -20,6 +20,7 @@ on:
   repository_dispatch:
     types: [update_template]
   workflow_dispatch:
+permissions: read-all
 jobs:
   release:
     name: Build
