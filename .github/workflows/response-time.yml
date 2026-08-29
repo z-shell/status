@@ -36,7 +36,7 @@ jobs:
         id: upptime-token
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
-          app-id: ${{ vars.UPPTIME_APP_ID }}
+          client-id: ${{ vars.UPPTIME_APP_CLIENT_ID }}
           private-key: ${{ secrets.UPPTIME_APP_PRIVATE_KEY }}
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
