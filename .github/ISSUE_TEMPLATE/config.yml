@@ -1,0 +1,12 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Z-Shell Discussions
+    url: https://github.com/orgs/z-shell/discussions
+    about: Ask questions and discuss the Z-Shell ecosystem.
+  - name: Z-Shell Documentation
+    url: https://wiki.zshell.dev
+    about: Read the user and maintainer documentation.
+  - name: Translation Project
+    url: https://digitalclouds.crowdin.com/z-shell
+    about: Help translate Z-Shell documentation and interfaces.

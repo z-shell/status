@@ -1,0 +1,40 @@
+version: 0.1
+cli:
+  version: 1.25.0
+plugins:
+  sources:
+    - id: trunk
+      ref: v1.11.0
+      uri: https://github.com/trunk-io/plugins
+lint:
+  disabled:
+    - checkov
+    - renovate
+    - trivy
+    - trufflehog
+  enabled:
+    - pinact@4.1.1
+    - yamllint@1.38.0
+    - markdownlint@0.49.1
+    - git-diff-check
+    - actionlint@1.7.12
+    - prettier@3.9.6
+    - gitleaks@8.30.1
+  ignore:
+    - linters: [ALL]
+      paths:
+        - "api/**"
+        - "graphs/**"
+        - "history/**"
+runtimes:
+  enabled:
+    - python@3.14.4
+    - go@1.21.0
+    - node@22.16.0
+actions:
+  enabled:
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
+    - trunk-cache-prune
+    - trunk-announce
+    - trunk-upgrade-available

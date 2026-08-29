@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.png binary
+
+# Generated Upptime data should not dominate language statistics or reviews.
+/api/** linguist-generated=true
+/graphs/** linguist-generated=true
+/history/** linguist-generated=true
+
+*.md linguist-detectable=true linguist-documentation=false
+*.json linguist-detectable=true
+*.yml linguist-detectable=true
