@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/suzuki-shunsuke/pinact/refs/heads/main/json-schema/pinact.json
+# pinact: https://github.com/suzuki-shunsuke/pinact
+version: 3
+min_age:
+  value: 3
+  always: true
+
+rules:
+  # These actions track moving branches and do not publish usable release tags.
+  - ignore: true
+    conditions:
+      - expr: |
+          ActionName == "z-shell/.github/actions/rebase" && ActionVersion == "8ee041623cd5a2892887357ea9f0fb443ff3d2b4"
+      - expr: |
+          ActionName == "upptime/updates" && ActionVersion == "4433e0b4f3d9d67445b99fa92f9c083693fcf2dc"

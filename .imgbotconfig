@@ -1,0 +1,4 @@
+{
+  "schedule": "monthly",
+  "ignoredFiles": ["graphs/**"]
+}

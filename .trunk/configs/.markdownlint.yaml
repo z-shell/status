@@ -1,0 +1,14 @@
+# Autoformatter friendly markdownlint config (all formatting rules disabled)
+default: true
+blank_lines: false
+bullet: false
+html: false
+indentation: false
+line_length: false
+spaces: false
+url: false
+whitespace: false
+# MD055 (table pipe style) flags the Upptime-generated status table in
+# README.md, which is auto-generated and marked "Do not edit this manually,
+# your changes will be overwritten" - so it's not worth fixing formatting there.
+MD055: false

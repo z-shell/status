@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a problem with the status page or monitoring configuration
+title: "bug: "
+labels:
+  - "bug :lady_beetle:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for problems with the status page or its monitoring. Service outages are tracked automatically by Upptime.
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected.
+    validations:
+      required: true
+  - type: input
+    id: affected-url
+    attributes:
+      label: Affected URL
+      placeholder: https://status.zshell.dev
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest reliable sequence that demonstrates the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots, browser details, or relevant workflow run links.

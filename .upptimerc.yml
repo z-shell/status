@@ -1,0 +1,70 @@
+owner: z-shell
+repo: status
+user-agent: z-shell
+
+# Preserve even short incidents so the public status history remains complete.
+skipDeleteIssues: true
+
+# Repository metadata is managed by Z-Shell, not by generated Upptime updates.
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+
+assignees:
+  - ss-o
+
+sites:
+  - name: wiki.zshell.dev
+    url: https://wiki.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+  - name: r2.zshell.dev
+    url: https://r2.zshell.dev/src/zsh/init.zsh
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+    __dangerous__body_up: Zi Loader
+  - name: src.zshell.dev
+    url: https://src.zshell.dev/zsh/init.zsh
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+    __dangerous__body_up: Zi Loader
+  - name: init.zshell.dev
+    url: https://init.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+    __dangerous__body_up: Zi Loader
+  - name: get.zshell.dev
+    url: https://get.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+    __dangerous__body_up: set -eu
+  - name: translate.zshell.dev
+    url: https://translate.zshell.dev
+    icon: https://wiki.zshell.dev/favicon.ico
+    maxResponseTime: 5000
+
+commitMessages:
+  readmeContent: "docs(status): update README summary [skip ci] [upptime]"
+  summaryJson: "chore(status): update status summary [skip ci] [upptime]"
+  statusChange: "chore(status): $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: "chore(status): update graphs [skip ci] [upptime]"
+
+status-website:
+  cname: status.zshell.dev
+  name: Z-Shell Status
+  logoUrl: https://github.com/z-shell.png
+  favicon: https://wiki.zshell.dev/favicon.ico
+  themeUrl: https://status.zshell.dev/themes/night.css
+  introTitle: Z-Shell service status
+  introMessage: Live availability and response-time information for Z-Shell services.
+  navbar:
+    - title: Status
+      href: /
+    - title: Documentation
+      href: https://wiki.zshell.dev
+    - title: Discussions
+      href: https://github.com/orgs/z-shell/discussions
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# See https://upptime.js.org/docs/configuration
