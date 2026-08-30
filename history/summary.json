@@ -41,7 +41,7 @@
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "src-zshell-dev",
     "status": "down",
-    "uptime": "95.10%",
+    "uptime": "95.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -77,7 +77,7 @@
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "get-zshell-dev",
     "status": "down",
-    "uptime": "94.10%",
+    "uptime": "94.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -95,18 +95,18 @@
     "icon": "https://wiki.zshell.dev/favicon.ico",
     "slug": "translate-zshell-dev",
     "status": "down",
-    "uptime": "94.95%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 345,
-    "timeDay": 345,
-    "timeWeek": 345,
-    "timeMonth": 345,
-    "timeYear": 345,
+    "uptime": "94.84%",
+    "uptimeDay": "96.21%",
+    "uptimeWeek": "99.46%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.89%",
+    "time": 328,
+    "timeDay": 328,
+    "timeWeek": 328,
+    "timeMonth": 328,
+    "timeYear": 328,
     "dailyMinutesDown": {
-      "2026-08-30": 0
+      "2026-08-30": 55
     }
   }
 ]
