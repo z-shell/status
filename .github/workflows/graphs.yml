@@ -44,7 +44,7 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.upptime-token.outputs.token }}
       - name: Generate graphs
-        uses: upptime/uptime-monitor@2eb5d99848b4be6e474f26112cf29e5cd5ab313c # v1.43.15
+        uses: upptime/uptime-monitor@2e53e7570ad597ccf3f251d43502846a042165d2 # v1.44.0
         with:
           command: "graphs"
         env:
